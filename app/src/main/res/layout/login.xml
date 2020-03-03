@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundLogin"
+    tools:context=".Login"
+    android:theme="@style/Theme.AppCompat.Light"
+    android:orientation="vertical"
+    tools:ignore="MissingPrefix">
+
+    <ImageView
+        android:id="@+id/imLogo_Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        app:srcCompat="@drawable/ic_logotlmtest" />
+
+    <RelativeLayout
+        android:id="@+id/layout_btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="210dp"
+        android:background="@drawable/framegray_login">
+
+        <ImageView
+            android:id="@+id/im_userLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_user40"
+            android:layout_marginLeft="8dp" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout_textLogin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/im_userLogin"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:id="@+id/textLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="57dp"
+                android:layout_toRightOf="@+id/im_userLogin"
+                android:fontFamily="@font/thsarabunnewbold"
+                android:text="เข้าสู่ระบบ"
+                android:textAppearance="@style/MyFont"
+                android:textColor="@android:color/black"
+                android:textSize="30dp" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:textAppearance="@style/MyFont"
+        android:background="#696969" />
+
+
+    <RelativeLayout
+        android:id="@+id/layout_btnQrLogin"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/framegray_qr_login">
+
+        <ImageView
+            android:id="@+id/im_userQrLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_qrcode40"
+            android:layout_marginLeft="8dp" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout_textQrLogin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/im_userQrLogin"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:id="@+id/textQrLogin"
+                fonPath="pridiregular"
+                android:layout_marginTop="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_toRightOf="@+id/im_userQrLogin"
+                android:fontFamily="@font/thsarabunnewbold"
+                android:text="เข้าสู่ระบบด้วยคิวอาร์โค้ด"
+                android:textColor="@android:color/black"
+                android:textSize="30dp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

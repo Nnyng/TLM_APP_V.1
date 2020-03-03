@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/MyFont"
+    tools:context=".Fn_Safety">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/Toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary">
+
+                <ImageView
+                    android:id="@+id/im_back_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/back50" />
+
+                <TextView
+                    android:id="@+id/textToolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SAFETY"
+                    android:textSize="35dp"
+                    android:fontFamily="@font/thsarabunnewbold"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/colorBlack"
+                    android:layout_marginLeft="30dp"/>
+
+            </androidx.appcompat.widget.Toolbar>
+
+<!--            <Toolbar-->
+<!--                android:id="@+id/toolbar_safety_back"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="70dp"-->
+<!--                android:background="@color/colorPrimary"-->
+<!--                android:baselineAligned="false"-->
+<!--                android:navigationIcon="@drawable/ic_arrow_back_black_24dp"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:title="SAFETY"-->
+<!--                android:titleMarginTop="20dp"-->
+<!--                android:titleMarginStart="20dp"-->
+<!--                android:titleTextColor="@color/colorBlack"-->
+<!--                tools:targetApi="lollipop"-->
+<!--                app:titleTextAppearance="@style/Toolbar.TitleText"/>-->
+
+<!--            <RelativeLayout-->
+<!--                android:id="@+id/locatsafety"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="60dp"-->
+<!--                android:layout_marginLeft="20dp"-->
+<!--                android:layout_marginTop="35dp"-->
+<!--                android:layout_marginRight="20dp"-->
+<!--                android:background="@drawable/frame_btn_fn_safetylocation">-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/im_Locatsafe"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:layout_marginLeft="8dp"-->
+<!--                    android:layout_marginTop="3dp"-->
+<!--                    android:adjustViewBounds="true"-->
+<!--                    android:scaleType="centerInside"-->
+<!--                    android:src="@drawable/map" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/textLocatSafety"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginLeft="45dp"-->
+<!--                    android:layout_marginRight="8dp"-->
+<!--                    android:layout_marginTop="12dp"-->
+<!--                    android:layout_toRightOf="@+id/im_Locatsafe"-->
+<!--                    android:gravity="center"-->
+<!--                    android:text="สถานที่ตรวจจริง"-->
+<!--                    android:textAppearance="@style/MyFont"-->
+<!--                    android:textColor="@android:color/black"-->
+<!--                    android:textSize="28dp" />-->
+
+<!--            </RelativeLayout>-->
+
+            <RelativeLayout
+                android:id="@+id/safety1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/frame_btn_fn_safety1">
+
+                <ImageView
+                    android:id="@+id/im_safety1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="3dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_safety1_1_100" />
+
+                <TextView
+                    android:id="@+id/textSafety1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_toRightOf="@+id/im_safety1"
+                    android:gravity="center"
+                    android:text="ตรวจเช็คอุปกรณ์ผจญเพลิง"
+                    android:textAppearance="@style/MyFont"
+                    android:textColor="@android:color/black"
+                    android:textSize="28dp" />
+
+                <!--                <ImageView-->
+                <!--                    android:id="@+id/im_safety1_1"-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="64dp"-->
+                <!--                    android:layout_marginLeft="25dp"-->
+                <!--                    android:layout_marginTop="7dp"-->
+                <!--                    android:layout_marginRight="15dp"-->
+                <!--                    android:layout_toRightOf="@+id/textSafety1"-->
+                <!--                    android:src="@drawable/ic_safety1_1_100" />-->
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/safety2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/frame_btn_fn_safety2">
+
+                <ImageView
+                    android:id="@+id/im_safety2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="4dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_safety2_2_100" />
+
+                <TextView
+                    android:id="@+id/textSafety2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_toRightOf="@+id/im_safety2"
+                    android:gravity="center"
+                    android:text="ตรวจเช็คไฟฉุกเฉิน"
+                    android:textAppearance="@style/MyFont"
+                    android:textColor="@android:color/black"
+                    android:textSize="28dp" />
+
+                <!--                <ImageView-->
+                <!--                    android:id="@+id/im_safety2_2"-->
+                <!--                    android:layout_width="102dp"-->
+                <!--                    android:layout_height="70dp"-->
+                <!--                    android:layout_marginLeft="70dp"-->
+                <!--                    android:layout_marginTop="6dp"-->
+                <!--                    android:layout_marginRight="15dp"-->
+                <!--                    android:layout_toRightOf="@+id/textSafety2"-->
+                <!--                    android:src="@drawable/ic_safety2_2_100" />-->
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/safety3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/frame_btn_fn_safety3">
+
+                <ImageView
+                    android:id="@+id/im_safety3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="2dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_safety3_100" />
+
+                <TextView
+                    android:id="@+id/textSafety3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_toRightOf="@+id/im_safety3"
+                    android:gravity="center"
+                    android:text="ตรวจเช็คถังดับเพลิง"
+                    android:textAppearance="@style/MyFont"
+                    android:textColor="@android:color/black"
+                    android:textSize="28dp" />
+
+                <!--                <ImageView-->
+                <!--                    android:id="@+id/im_safety3_3"-->
+                <!--                    android:layout_width="102dp"-->
+                <!--                    android:layout_height="72dp"-->
+                <!--                    android:layout_marginLeft="48dp"-->
+                <!--                    android:layout_marginTop="5dp"-->
+                <!--                    android:layout_marginRight="15dp"-->
+                <!--                    android:layout_toRightOf="@+id/textSafety3"-->
+                <!--                    android:src="@drawable/ic_safety3_3_100" />-->
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/safety4"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/frame_btn_fn_safety4">
+
+                <ImageView
+                    android:id="@+id/im_safety4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="3dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_safety4_100" />
+
+                <TextView
+                    android:id="@+id/textSafety4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_toRightOf="@+id/im_safety4"
+                    android:gravity="center"
+                    android:text="ตรวจเช็คป้ายและประตูทางหนีไฟ"
+                    android:textAppearance="@style/MyFont"
+                    android:textColor="@android:color/black"
+                    android:textSize="28dp" />
+
+                <!--                <ImageView-->
+                <!--                    android:id="@+id/im_safety4_4"-->
+                <!--                    android:layout_width="102dp"-->
+                <!--                    android:layout_height="72dp"-->
+                <!--                    android:layout_marginLeft="480dp"-->
+                <!--                    android:layout_marginTop="4dp"-->
+                <!--                    android:src="@drawable/ic_safety4_4_100" />-->
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/safety5"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/frame_btn_fn_safety5">
+
+                <ImageView
+                    android:id="@+id/im_safety5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="2dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_safety5_100" />
+
+                <TextView
+                    android:id="@+id/textSafety5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_toRightOf="@+id/im_safety5"
+                    android:gravity="center"
+                    android:text="ตรวจเช็คตู้เก็บสายดับเพลิง"
+                    android:textAppearance="@style/MyFont"
+                    android:textColor="@android:color/black"
+                    android:textSize="28dp" />
+
+                <!--                <ImageView-->
+                <!--                    android:id="@+id/im_safety5_5"-->
+                <!--                    android:layout_width="102dp"-->
+                <!--                    android:layout_height="76dp"-->
+                <!--                    android:layout_marginLeft="35dp"-->
+                <!--                    android:layout_marginTop="6dp"-->
+                <!--                    android:layout_marginRight="15dp"-->
+                <!--                    android:layout_toRightOf="@+id/textSafety5"-->
+                <!--                    android:src="@drawable/ic_safety_5_5_100" />-->
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/safety6"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/frame_btn_fn_safety6">
+
+                <ImageView
+                    android:id="@+id/im_safety6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="4dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_safety6_6_100" />
+
+                <TextView
+                    android:id="@+id/textSafety6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_toRightOf="@+id/im_safety6"
+                    android:gravity="center"
+                    android:text="ตรวจเช็ค Eye/Shower"
+                    android:textAppearance="@style/MyFont"
+                    android:textColor="@android:color/black"
+                    android:textSize="28dp" />
+
+                <!--                <ImageView-->
+                <!--                    android:id="@+id/im_safety6_6"-->
+                <!--                    android:layout_width="78dp"-->
+                <!--                    android:layout_height="match_parent"-->
+                <!--                    android:layout_marginLeft="50dp"-->
+                <!--                    android:layout_marginTop="4dp"-->
+                <!--                    android:layout_marginRight="15dp"-->
+                <!--                    android:layout_toRightOf="@+id/textSafety6"-->
+                <!--                    android:src="@drawable/ic_safety6_6_100" />-->
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/safety7"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/frame_btn_fn_safety7">
+
+                <ImageView
+                    android:id="@+id/im_safety7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="2dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_safety7_100" />
+
+                <TextView
+                    android:id="@+id/textSafety7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_toRightOf="@+id/im_safety7"
+                    android:gravity="center"
+                    android:text="ตรวจเช็คระบบโฟมดับเพลิง"
+                    android:textAppearance="@style/MyFont"
+                    android:textColor="@android:color/black"
+                    android:textSize="28dp" />
+
+                <!--                <ImageView-->
+                <!--                    android:id="@+id/im_safety7_7"-->
+                <!--                    android:layout_width="102dp"-->
+                <!--                    android:layout_height="72dp"-->
+                <!--                    android:layout_marginLeft="34dp"-->
+                <!--                    android:layout_marginTop="4dp"-->
+                <!--                    android:layout_marginRight="15dp"-->
+                <!--                    android:layout_toRightOf="@+id/textSafety7"-->
+                <!--                    android:src="@drawable/ic_safety7_7_100" />-->
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/safety8"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/frame_btn_fn_safety8">
+
+                <ImageView
+                    android:id="@+id/im_safety8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="2dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_safety8_100" />
+
+                <TextView
+                    android:id="@+id/textSafety8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_toRightOf="@+id/im_safety8"
+                    android:gravity="center"
+                    android:text="ตรวจเช็คอุปกรณ์ดับเพลิง"
+                    android:textAppearance="@style/MyFont"
+                    android:textColor="@android:color/black"
+                    android:textSize="28dp" />
+
+                <!--                <ImageView-->
+                <!--                    android:id="@+id/im_safety8_8"-->
+                <!--                    android:layout_width="102dp"-->
+                <!--                    android:layout_height="72dp"-->
+                <!--                    android:layout_marginLeft="45dp"-->
+                <!--                    android:layout_marginTop="3dp"-->
+                <!--                    android:layout_marginRight="15dp"-->
+                <!--                    android:layout_toRightOf="@+id/textSafety8"-->
+                <!--                    android:src="@drawable/ic_safety8_8_100" />-->
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/safety9"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/frame_btn_fn_safety9">
+
+                <ImageView
+                    android:id="@+id/im_safety9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="2dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_safety9_100" />
+
+                <TextView
+                    android:id="@+id/textSafety9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_toRightOf="@+id/im_safety9"
+                    android:gravity="center"
+                    android:text="ตรวจเช็คระบบดับเพลิงอัตโนมัติ CO2"
+                    android:textAppearance="@style/MyFont"
+                    android:textColor="@android:color/black"
+                    android:textSize="25dp" />
+
+                <!--                <ImageView-->
+                <!--                    android:id="@+id/im_safety9_9"-->
+                <!--                    android:layout_width="102dp"-->
+                <!--                    android:layout_height="72dp"-->
+                <!--                    android:layout_marginLeft="0dp"-->
+                <!--                    android:layout_marginTop="3dp"-->
+                <!--                    android:layout_marginRight="15dp"-->
+                <!--                    android:layout_toRightOf="@+id/textSafety9"-->
+                <!--                    android:src="@drawable/ic_safety9_9_100" />-->
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/safety10"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/frame_btn_fn_safety10">
+
+                <ImageView
+                    android:id="@+id/im_safety10"
+                    android:layout_width="47dp"
+                    android:layout_height="43dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_safety10_100" />
+
+                <TextView
+                    android:id="@+id/textSafety10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_toRightOf="@+id/im_safety10"
+                    android:gravity="center"
+                    android:text="ตรวจเช็ควาล์วหลักของระบบดับเพลิง"
+                    android:textAppearance="@style/MyFont"
+                    android:textColor="@android:color/black"
+                    android:textSize="25dp" />
+
+                <!-- <ImageView-->
+                <!-- android:id="@+id/im_safety4_4"-->
+                <!-- android:layout_width="102dp"-->
+                <!-- android:layout_height="72dp"-->
+                <!-- android:layout_marginLeft="480dp"-->
+                <!-- android:layout_marginTop="4dp"-->
+                <!-- android:src="@drawable/ic_safety4_4_100" />-->
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/safety11"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/frame_btn_fn_safety11">
+
+                <ImageView
+                    android:id="@+id/im_safety11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="3dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_safe11_100" />
+
+                <TextView
+                    android:id="@+id/textSafety11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_toRightOf="@+id/im_safety11"
+                    android:gravity="center"
+                    android:text="ตรวจเช็ค Fire Alarm"
+                    android:textAppearance="@style/MyFont"
+                    android:textColor="@android:color/black"
+                    android:textSize="28dp" />
+
+                <!-- <ImageView-->
+                <!-- android:id="@+id/im_safety4_4"-->
+                <!-- android:layout_width="102dp"-->
+                <!-- android:layout_height="72dp"-->
+                <!-- android:layout_marginLeft="480dp"-->
+                <!-- android:layout_marginTop="4dp"-->
+                <!-- android:src="@drawable/ic_safety4_4_100" />-->
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/safety12"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/frame_btn_fn_safety12">
+
+                <ImageView
+                    android:id="@+id/im_safety12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="2dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_safety12_100" />
+
+                <TextView
+                    android:id="@+id/textSafety12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_toRightOf="@+id/im_safety12"
+                    android:gravity="center"
+                    android:text="DAILY CHECK"
+                    android:textAppearance="@style/MyFont"
+                    android:textColor="@android:color/black"
+                    android:textSize="28dp" />
+
+                <!-- <ImageView-->
+                <!-- android:id="@+id/im_safety4_4"-->
+                <!-- android:layout_width="102dp"-->
+                <!-- android:layout_height="72dp"-->
+                <!-- android:layout_marginLeft="480dp"-->
+                <!-- android:layout_marginTop="4dp"-->
+                <!-- android:src="@drawable/ic_safety4_4_100" />-->
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/logOut"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/frame_btn_logout">
+
+                <ImageView
+                    android:id="@+id/im_logOut"
+                    android:layout_width="wrap_content"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="4dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_logout100" />
+
+                <TextView
+                    android:id="@+id/textLogOut"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_toRightOf="@+id/im_logOut"
+                    android:gravity="center"
+                    android:text="LOG OUT"
+                    android:textAppearance="@style/MyFont"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="28dp" />
+
+                <!-- <ImageView-->
+                <!-- android:id="@+id/im_safety4_4"-->
+                <!-- android:layout_width="102dp"-->
+                <!-- android:layout_height="72dp"-->
+                <!-- android:layout_marginLeft="480dp"-->
+                <!-- android:layout_marginTop="4dp"-->
+                <!-- android:src="@drawable/ic_safety4_4_100" />-->
+            </RelativeLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorWhite"
+                android:gravity="center">
+            </Button>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

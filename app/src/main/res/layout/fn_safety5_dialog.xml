@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/background_fnsafety5"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageButton
+                android:id="@+id/ib_exitfn5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="530dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/background_fnsafety5"
+                android:src="@android:drawable/ic_delete" />
+
+            <TextView
+                android:id="@+id/date5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="380dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white"
+                android:gravity="center"
+                android:paddingTop="8dp"
+                android:paddingBottom="5dp"
+                android:text="DATE/TIME"
+                android:textColor="@color/colorBlack"
+                android:textSize="25dp"
+                android:theme="@style/MyFont" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:text="หมายเลขอุปกรณ์"
+                android:textColor="@color/colorBlack"
+                android:textSize="32dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white"
+                android:theme="@style/spinnerItemStyle">
+
+                <Spinner
+                    android:id="@+id/numdevice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:entries="@array/id_devicefire_cabinetfn5"
+                    android:layout_marginTop="12dp"
+                    android:theme="@style/spinnerItemStyle" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="12dp"
+                android:text="สถานที่ติดตั้ง"
+                android:textColor="@color/colorBlack"
+                android:textSize="32dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white"
+                android:theme="@style/spinnerItemStyle">
+
+                <Spinner
+                    android:id="@+id/location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="12dp"
+                    android:entries="@array/locationFire_cabinetfn5"
+                    android:theme="@style/spinnerItemStyle" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="12dp"
+                android:text="ชนิดของอุปกรณ์"
+                android:textColor="@color/colorBlack"
+                android:textSize="32dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white"
+                android:theme="@style/spinnerItemStyle">
+
+                <Spinner
+                    android:id="@+id/device_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/deviceType_Fire_cabinetFn5"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="12dp"
+                    android:theme="@style/spinnerItemStyle" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="12dp"
+                android:text="ไม่มีสิ่งกีดขวางทางเข้า"
+                android:textColor="@color/colorBlack"
+                android:textSize="32dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white"
+                android:theme="@style/spinnerItemStyle">
+
+                <Spinner
+                    android:id="@+id/gener5_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="12dp"
+                    android:entries="@array/generalityFire_cabinetfn5"
+                    android:theme="@style/spinnerItemStyle" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="12dp"
+                android:text="อยู่ในที่แขวนติดตั้ง"
+                android:textColor="@color/colorBlack"
+                android:textSize="32dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white"
+                android:theme="@style/spinnerItemStyle">
+
+                <Spinner
+                    android:id="@+id/gener5_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="12dp"
+                    android:entries="@array/generalityFire_cabinetfn5"
+                    android:theme="@style/spinnerItemStyle" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="12dp"
+                android:text="ตัวยึดมั่นคง แข็งแรง"
+                android:textColor="@color/colorBlack"
+                android:textSize="32dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white"
+                android:theme="@style/spinnerItemStyle">
+
+                <Spinner
+                    android:id="@+id/gener5_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:entries="@array/generalityFire_cabinetfn5"
+                    android:layout_marginTop="12dp"
+                    android:theme="@style/spinnerItemStyle" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="12dp"
+                android:text="หัวฉีดไม่มีสิ่งอุดตัน"
+                android:textColor="@color/colorBlack"
+                android:textSize="32dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white"
+                android:theme="@style/spinnerItemStyle">
+
+                <Spinner
+                    android:id="@+id/gener5_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="12dp"
+                    android:entries="@array/generalityFire_cabinetfn5"
+                    android:theme="@style/spinnerItemStyle" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="12dp"
+                android:text="แรงดันปกติ"
+                android:textColor="@color/colorBlack"
+                android:textSize="32dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white"
+                android:theme="@style/spinnerItemStyle">
+
+                <Spinner
+                    android:id="@+id/gener5_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="12dp"
+                    android:entries="@array/generalityFire_cabinetfn5"
+                    android:theme="@style/spinnerItemStyle" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="12dp"
+                android:text="สายดับเพลิงพร้อมใช้งาน"
+                android:textColor="@color/colorBlack"
+                android:textSize="32dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white"
+                android:theme="@style/spinnerItemStyle">
+
+                <Spinner
+                    android:id="@+id/gener5_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="12dp"
+                    android:entries="@array/generalityFire_cabinetfn5"
+                    android:theme="@style/spinnerItemStyle" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:text="วันที่ทดสอบจริง (ERT)"
+                android:textColor="@color/colorBlack"
+                android:textSize="32dp"
+                android:theme="@style/MyFont" />
+
+
+            <!--                <TextView-->
+            <!--                    android:id="@+id/tvCalendarMedicine1dtt"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:background="@drawable/frame1"-->
+            <!--                    android:hint="วัน/เดือน/ปี"-->
+            <!--                    android:paddingTop="6dp"-->
+            <!--                    android:paddingBottom="8dp"-->
+            <!--                    android:textAlignment="center"-->
+            <!--                    android:textColor="@color/back"-->
+            <!--                    android:textColorHint="@color/back"-->
+            <!--                    android:textSize="30dp"-->
+            <!--                    app:layout_constraintBottom_toBottomOf="parent"-->
+            <!--                    app:layout_constraintTop_toTopOf="parent"-->
+            <!--                    app:layout_constraintVertical_bias="0.0"-->
+            <!--                    tools:layout_editor_absoluteX="-4dp" />-->
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white"
+                android:theme="@style/spinnerItemStyle">
+
+                <ImageView
+                    android:id="@+id/imCalendar"
+                    android:layout_width="65dp"
+                    android:layout_height="55dp"
+                    android:layout_marginRight="8dp"
+                    android:paddingTop="3dp"
+                    android:src="@drawable/ic_calendar50" />
+
+                <TextView
+                    android:id="@+id/dateTest"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="69dp"
+                    android:paddingLeft="30dp"
+                    android:hint="วัน/เดือน/ปี"
+                    android:paddingTop="13dp"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="25dp"
+                    android:theme="@style/MyFont" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="240dp"
+                android:background="@drawable/frame_background_white"
+                android:theme="@style/spinnerItemStyle">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="0dp"
+                    android:text="ลงชื่อผู้ตรวจ"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="25dp"
+                    android:theme="@style/MyFont" />
+
+                <EditText
+                    android:id="@+id/Signfn5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="120dp"
+                    android:maxLines="1"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="28dp"
+                    android:theme="@style/MyFont" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="240dp"
+                android:background="@drawable/frame_background_white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="0dp"
+                    android:text="ลงชื่อผู้ตรวจสอบ"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="25dp"
+                    android:theme="@style/MyFont" />
+
+                <EditText
+                    android:id="@+id/ed_Signfn5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="156dp"
+                    android:maxLines="1"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="28dp"
+                    android:theme="@style/MyFont" />
+            </RelativeLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnUpdatefn5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="#8FBC8F"
+                    android:text="Update"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="32dp"/>
+
+                <Button
+                    android:id="@+id/btnDeletefn5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="Delete"
+                    android:background="#CC3333"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="32dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

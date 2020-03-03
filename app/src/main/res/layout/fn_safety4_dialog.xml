@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/background_fnsafety4"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageButton
+                android:id="@+id/ib_exitfn4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="530dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/background_fnsafety1"
+                android:src="@android:drawable/ic_delete" />
+
+            <TextView
+                android:id="@+id/date4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="380dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/frame_background_white"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:paddingTop="8dp"
+                android:text="DATE/TIME"
+                android:textColor="@color/colorBlack"
+                android:textSize="25dp"
+                android:theme="@style/MyFont"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="สถานที่ติดตั้ง"
+                android:textColor="@color/colorBlack"
+                android:textSize="32dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:theme="@style/MyFont"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:theme="@style/spinnerItemStyle"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white">
+
+                <Spinner
+                    android:id="@+id/locatfn4_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:entries="@array/Location_fire_exitFn4"
+                    android:theme="@style/spinnerItemStyle"
+                    android:layout_marginLeft="20dp"/>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="32dp"
+                android:text="ชนิดของป้ายทางหนีไฟ"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="12dp"
+                android:textColor="@color/colorBlack"
+                android:theme="@style/MyFont"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:theme="@style/spinnerItemStyle"
+                android:background="@drawable/frame_background_white">
+
+                <Spinner
+                    android:id="@+id/typefn4_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:entries="@array/Type_fire_exitFn4"
+                    android:layout_marginLeft="20dp"
+                    android:theme="@style/spinnerItemStyle"/>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="32dp"
+                android:text="สภาพของป้ายทางหนีไฟ"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="12dp"
+                android:textColor="@color/colorBlack"
+                android:theme="@style/MyFont"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:theme="@style/spinnerItemStyle"
+                android:background="@drawable/frame_background_white">
+
+                <Spinner
+                    android:id="@+id/generfn4_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:entries="@array/generality_fire_exitFn4"
+                    android:layout_marginLeft="20dp"
+                    android:theme="@style/spinnerItemStyle"/>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="12dp"
+                android:text="หมายเหตุ"
+                android:textColor="@color/colorBlack"
+                android:textSize="32dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white">
+
+                <EditText
+                    android:id="@+id/noteFn4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:maxLines="2"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="25dp"
+                    android:theme="@style/MyFont" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="240dp"
+                android:theme="@style/spinnerItemStyle"
+                android:background="@drawable/frame_background_white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="0dp"
+                    android:text="ลงชื่อผู้ตรวจ"
+                    android:theme="@style/MyFont"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="25dp" />
+
+                <EditText
+                    android:id="@+id/Signfn4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="120dp"
+                    android:maxLines="1"
+                    android:theme="@style/MyFont"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="28dp" />
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="240dp"
+                android:background="@drawable/frame_background_white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="ลงชื่อผู้ตรวจสอบ"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="0dp"
+                    android:theme="@style/MyFont"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="25dp" />
+
+                <EditText
+                    android:id="@+id/ed_Signfn4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="156dp"
+                    android:maxLines="1"
+                    android:theme="@style/MyFont"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="28dp" />
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnUpdatefn4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="#8FBC8F"
+                    android:text="Update"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="32dp"/>
+
+                <Button
+                    android:id="@+id/btnDeletefn4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="Delete"
+                    android:background="#CC3333"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="32dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

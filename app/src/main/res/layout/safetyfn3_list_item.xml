@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_fnsafety3"
+    android:orientation="vertical"
+    tools:context=".SafetyFn3ListItem">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="datetime"
+        android:layout_marginLeft="8dp"
+        android:textSize="30dp"
+        android:textColor="@color/colorBlack"
+        android:fontFamily="@font/thsarabunnewbold"
+        android:id="@+id/tvdatefn3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="numlocat"
+        android:layout_marginLeft="8dp"
+        android:textSize="30dp"
+        android:textColor="@color/colorBlack"
+        android:fontFamily="@font/thsarabunnewbold"
+        android:id="@+id/tvNumLocationfn3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="locat"
+        android:layout_marginLeft="8dp"
+        android:textSize="30dp"
+        android:textColor="@color/colorBlack"
+        android:fontFamily="@font/thsarabunnewbold"
+        android:id="@+id/tvlocationfn3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="typedevice"
+        android:layout_marginLeft="8dp"
+        android:textSize="30dp"
+        android:textColor="@color/colorBlack"
+        android:fontFamily="@font/thsarabunnewbold"
+        android:id="@+id/tvTypeDvicefn3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="generality3_1"
+        android:layout_marginLeft="8dp"
+        android:textSize="30dp"
+        android:textColor="@color/colorBlack"
+        android:fontFamily="@font/thsarabunnewbold"
+        android:id="@+id/tvGeneralityfn3_1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:textSize="30dp"
+        android:layout_marginLeft="8dp"
+        android:text="generality3_2"
+        android:fontFamily="@font/thsarabunnewbold"
+        android:id="@+id/tvGeneralityfn3_2"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:textSize="30dp"
+        android:layout_marginLeft="8dp"
+        android:text="generality3_3"
+        android:fontFamily="@font/thsarabunnewbold"
+        android:id="@+id/tvGeneralityfn3_3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:textSize="30dp"
+        android:text="generality3_4"
+        android:layout_marginLeft="8dp"
+        android:fontFamily="@font/thsarabunnewbold"
+        android:id="@+id/tvGeneralityfn3_4"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:layout_marginLeft="8dp"
+        android:textSize="30dp"
+        android:text="generality3_5"
+        android:fontFamily="@font/thsarabunnewbold"
+        android:id="@+id/tvGeneralityfn3_5"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:textSize="30dp"
+        android:layout_marginLeft="8dp"
+        android:text="generality3_6"
+        android:fontFamily="@font/thsarabunnewbold"
+        android:id="@+id/tvGeneralityfn3_6"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sign"
+        android:layout_marginLeft="8dp"
+        android:textSize="30dp"
+        android:textColor="@color/colorBlack"
+        android:fontFamily="@font/thsarabunnewbold"
+        android:id="@+id/tvSignfn3"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="edSign"
+        android:textSize="30dp"
+        android:layout_marginLeft="8dp"
+        android:textColor="@color/colorBlack"
+        android:fontFamily="@font/thsarabunnewbold"
+        android:id="@+id/tvEdSignfn3"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,1754 @@
+<resources>
+    <string name="app_name">TLM_APP</string>
+    // Function Safety1
+    สถานที่ติดตั้ง
+    <string-array name="Location">
+        <item></item>
+        <item>บริเวณทางเดินTT-LA</item>
+        <item>บริเวณห้องเก็บอุปกรณ์ERT</item>
+    </string-array>
+    จำนวนอุปกรณ์
+    <string-array name="total">
+        <item></item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+    ประเภทของอุปกรณ์
+    <string-array name="Total_Type">
+        <item></item>
+        <item>ชุด</item>
+        <item>ใบ</item>
+        <item>ผืน</item>
+        <item>คู่</item>
+        <item>ตัว</item>
+        <item>เส้น</item>
+        <item>คัน</item>
+        <item>แกลลอน</item>
+        <item>ด้าม</item>
+        <item>อัน</item>
+    </string-array>
+    สภาพทั่วไปของอุปกรณ์
+    <string-array name="Generality">
+        <item></item>
+        <item>อยู่ครบ/ชำรุด</item>
+        <item>ไม่ครบ/ชำรุด</item>
+        <item>อยู่ครบ/ไม่ชำรุด</item>
+        <item>ไม่ครบ/ไม่ชำรุด</item>
+    </string-array>
+    ชนิดของอุปกรณ์
+    <string-array name="device_Type">
+        <item></item>
+        <item>ชุดดับเพลิงในอาคาร</item>
+        <item>เสื้อผจญเพลิงนอกอาคาร</item>
+        <item>หมวกผจญเพลิง</item>
+        <item>Hood คลุมศรีษะกันความร้อน</item>
+        <item>รองเท้าบูซ</item>
+        <item>ถุงมือกันความร้อน</item>
+        <item>ถุงมือหนังกันความร้อน</item>
+        <item>ถุงมือหนัง</item>
+        <item>ถุงมือยางดำ</item>
+        <item>SCBA</item>
+        <item>หน้ากากป้องกันสารเคมี</item>
+        <item>ปืนฉีดน้ำดับเพลิง(ฟ็อคซ์)</item>
+        <item>ปืนฉีดโฟม</item>
+        <item>ปืนฉีดตรง</item>
+        <item>ปืนฉีดฝอย</item>
+        <item>หัวฉีดปรับตรง</item>
+        <item>หัวฉีดปรับฝอย</item>
+        <item>หัวฉีดน้ำดับเพลิงสวมเร็ว</item>
+        <item>ข้อต่อสวมเร็วแบบมีเพรสเชอร์เกจ</item>
+        <item>ข้อต่อสามทางสวมเร็ว</item>
+        <item>สายดับเพลิง2.5 นิ้ว</item>
+        <item>สายดับเพลิง1 1/2 นิ้ว</item>
+        <item>สายดับเพลิง2 1/2 นิ้ว</item>
+        <item>สายดับเพลิง2 1/2 นิ้ว(ตัวผู้2ด้าน)</item>
+        <item>Mobile Foam</item>
+        <item>น้ำยาโฟม</item>
+        <item>ขวาน</item>
+        <item>ไม้ชักฟิวส์</item>
+        <item>Blower</item>
+        <item>ท่อดูดระบายอากาศ</item>
+        <item>ตะกร้าหวาย+ถุงกระสอบ</item>
+        <item>หลอดไฟส่องสว่าง+ขาตั้ง</item>
+        <item>คีมตัดเหล็ก</item>
+    </string-array>
+    // Function Safety2
+    ชนิดของไฟฉุกเฉิน
+    <string-array name="electricity_emergency_Type">
+        <item></item>
+        <item>Battery Box</item>
+        <item>Battery Center Control</item>
+        <item>Battery stand alone unit</item>
+    </string-array>
+    สภาพของไฟฉุกเฉิน
+    <string-array name="generality_electricity">
+        <item></item>
+        <item>หลอดไฟติด/สภาพทั่วไป OK</item>
+        <item>หลอดไฟไม่ติด/สภาพทั่วไป NO</item>
+        <item>หลอดไฟติด/สภาพทั่วไป NO</item>
+        <item>หลอดไฟไม่ติด/สภาพทั่วไป OK</item>
+    </string-array>
+    สถานที่ติดตั้ง
+    <string-array name="location_FnSafety2">
+        <item></item>
+        <item>ประตูทางเข้า OFFICE</item>
+        <item>ตรงข้ามห้อง Pantry Room</item>
+        <item>ในห้องน้ำหญิง</item>
+        <item>ในห้องน้ำชาย</item>
+        <item>ทางเดินใกล้จุด Breakdown</item>
+        <item>ทางเดินใกล้จุด Breakdown</item>
+        <item>ในโรงงานด้านหลังใกล้ Control Press</item>
+        <item>มุมผนังระหว่างเครื่อง Press กับห้อง MDB</item>
+        <item>ติดมุมผนังห้อง MDB ด้านนอก</item>
+        <item>ติดมุมผนังห้อง MDB ด้านนอก</item>
+        <item>ติดมุมผนังห้อง MDB ด้านใน</item>
+        <item>ติดมุมผนังห้อง MDB ด้านใน</item>
+        <item>ติดผนังทางเดินไปจุด Loading</item>
+        <item>ติดผนังทางเดินไปจุด Loading ตรงข้าม PP STORE</item>
+        <item>FL.2 ห้อง Boiler</item>
+        <item>Fire pump</item>
+        <item>ชั้นบนออฟฟิศหน้าห้อง Server</item>
+        <item>ชั้นล่างออฟฟิศ แผนก PU</item>
+        <item>หน้าห้องพยาบาล</item>
+        <item>ห้อง Server</item>
+        <item>ห้อง Meeting Room 1</item>
+        <item>ในห้อง Control MT TT</item>
+        <item>ในห้อง TT Office</item>
+        <item>ในห้อง Mixing</item>
+        <item>ในห้อง QA Office</item>
+        <item>ทางเข้า TT.(ใกล้ประตูเข้า TT.C)</item>
+        <item>ในห้อง QATT LAB</item>
+        <item>หน้าบอร์ดในแผนก TT.</item>
+        <item>ท้ายไลน์ TT-C</item>
+        <item>หน้าห้อง Metering TT-C</item>
+        <item>หัวไลน์ TT-C</item>
+        <item>หัวไลน์ TT-F</item>
+        <item>ท้ายไลน์ TT-F</item>
+        <item>หน้าห้อง Metering TT-F</item>
+        <item>ท้ายไลน์ TT-D</item>
+        <item>หน้าห้อง Metering TT-D</item>
+        <item>หัวไลน์ TT-D</item>
+        <item>ท้ายไลน์ TT-E</item>
+        <item>หัวไลน์ TT-E</item>
+        <item>หน้าห้อง Metering TT-E</item>
+        <item>มุมเสาด้านใน MC</item>
+        <item>ทางเข้า LA มุมเสาใกล้เครื่อง Press Line4-5</item>
+        <item>ทางเข้า LA มุมเสาใกล้ห้อง Prepreg</item>
+        <item>ในห้องเย็น MC(Cold1)</item>
+        <item>ในห้องเย็น MC(Cold1)</item>
+        <item>กำแพงห้อง Press Control ใน LA</item>
+        <item>กำแพงจุดวางกระดาษ ใน LA Line ล่าง</item>
+        <item>ใกล้ประตูฉุกเฉินใกล้เครื่อง Packing ใน LA</item>
+        <item>กำแพงหลังเครื่อง PACKING ใน LA</item>
+        <item>ใกล้ประตูฉุกเฉินด้านหลัง ใน LA</item>
+        <item>หน้า LA Office</item>
+        <item>กำแพงทางขึ้น-ลงชั้นใต้ดิน Clean Room</item>
+        <item>ในห้องใต้ดิน LA</item>
+        <item>LA Line บนหน้าห้อง Clean Room</item>
+        <item>LA Line บนจุดงาน Break down ใกล้ประตู Press</item>
+        <item>LA Line ล่างใกล้ประตูทางเข้า LA</item>
+        <item>ในห้อง BOILER</item>
+        <item>ในห้อง BOILER</item>
+        <item>ในห้อง Lay-Up LA Line บน</item>
+        <item>ในห้อง Lay-Up LA Line บน</item>
+        <item>ในห้องตัด PREPERG AUTO</item>
+        <item>ในห้องตัด PREPERG AUTO</item>
+        <item>ในห้อง MDB</item>
+        <item>ในห้อง Facility</item>
+        <item>ในห้อง Fire Pump</item>
+        <item>ห้องขัด Thermaplate ข้าง MT Workshop</item>
+        <item>ทางเดิน TT-LA</item>
+        <item>MC Loading</item>
+        <item>TLM Store เช่า KCE(ประตูหนีไฟ)</item>
+        <item>อาคารอเนกประสงค์ ชั้น2(Canteen)</item>
+        <item>อาคารอเนกประสงค์ ชั้น2(Canteen)</item>
+        <item>ทางเดิน TT-LA(ใกล้ทางเข้าแผนก LA)</item>
+        <item>หัวไลน์ TT-G</item>
+        <item>ท้ายไลน์ TT-G</item>
+        <item>หน้าห้อง Metering TT-G</item>
+        <item>ในห้อง Layup4-5</item>
+        <item>อาคารอเนกประสงค์ ชั้น1 Office HR</item>
+        <item>อาคารอเนกประสงค์ ชั้น2 Office R/D</item>
+        <item>อาคารอเนกประสงค์ ชั้น3 Office Engineer</item>
+        <item>อาคารอเนกประสงค์ ชั้น4 Office MC/PC</item>
+    </string-array>
+    // Function safety 4
+    // สถานที่ติดตั้ง
+    <string-array name="Location_fire_exitFn4">
+        <item></item>
+        <item>ท้ายไลน์ TT-E</item>
+        <item>ท้ายไลน์ TT-D</item>
+        <item>ท้ายไลน์ TT-G</item>
+        <item>จุดงาน Packing LA Line 123</item>
+        <item>จุดงาน Break down Line 123</item>
+        <item>ห้อง Mixing</item>
+        <item>MC Store ฝั่ง KCE</item>
+    </string-array>
+    // ชนิดของป้ายทางหนีไฟ
+    <string-array name="Type_fire_exitFn4">
+        <item></item>
+        <item>Exit sign board</item>
+        <item>Exit sign board</item>
+        <item>Exit sign board</item>
+        <item>Battery box</item>
+        <item>Battery box</item>
+        <item>Exit sign board</item>
+        <item>Exit sign board</item>
+    </string-array>
+    // สภาพของป้ายทางหนีไฟ
+    <string-array name="generality_fire_exitFn4">
+        <item></item>
+        <item>หลอดไฟติด</item>
+        <item>หลอดไม่ไฟติด</item>
+        <item>การทดสอบการผลักออก OK</item>
+        <item>การทดสอบการผลักออก NO</item>
+        <item>สภาพทั่วไปต้องไม่มีสิ่งกีดขวาง OK</item>
+        <item>สภาพทั่วไปต้องไม่มีสิ่งกีดขวาง NO</item>
+    </string-array>
+    // Function Safety5
+    //หมายเลขอุปกรณ์
+    <string-array name="id_devicefire_cabinetfn5">
+        <item></item>
+        <item>HOSE REEL BOX NO.1</item>
+        <item>HOSE REEL BOX NO.2</item>
+        <item>HOSE REEL BOX NO.3</item>
+        <item>HOSE REEL BOX NO.4</item>
+        <item>HOSE REEL BOX NO.5</item>
+        <item>HOSE REEL BOX NO.6</item>
+        <item>HOSE REEL BOX NO.7</item>
+        <item>HOSE REEL BOX NO.8</item>
+        <item>HOSE REEL BOX NO.9</item>
+        <item>HOSE REEL BOX NO.10</item>
+        <item>ตู้เก็บสายดับเพลิง NO.1</item>
+        <item>ตู้เก็บสายดับเพลิง NO.2</item>
+        <item>ตู้เก็บสายดับเพลิง NO.3</item>
+        <item>ตู้เก็บสายดับเพลิง NO.4</item>
+        <item>ตู้เก็บสายดับเพลิง NO.5</item>
+        <item>ตู้เก็บสายดับเพลิง NO.6</item>
+        <item>ตู้เก็บสายดับเพลิง NO.7</item>
+    </string-array>
+    // ชนิดของอุปกรณ์
+    <string-array name="deviceType_Fire_cabinetFn5">
+        <item></item>
+        <item>ตู้หัวจ่ายสาย 1 1/2 นิ้ว</item>
+        <item>สาย 2.5 นิ้ว 2 เส้น</item>
+        <item>สาย 1.5 นิ้ว 1 เส้น</item>
+        <item>สาย 1.5 นิ้ว 1 เส้น,2.5 นิ้ว 2 เส้น</item>
+        <item>สาย 1.5 นิ้ว 1 เส้น,หัวฉีด 1 หัว</item>
+        <item>สาย 2.5 นิ้ว 1 เส้น,หัวฉีด 1 หัว</item>
+        <item>สาย 1.5 นิ้ว 1 เส้น</item>
+        <item>สาย 1.5 นิ้ว 1 เส้น,หัวฉีด 1 หัว</item>
+    </string-array>
+    // สถานที่ติดตั้งอุปกรณ์
+    <string-array name="locationFire_cabinetfn5">
+        <item></item>
+        <item>ระเบียงหน้าสำนักงาน</item>
+        <item>บริเวณพื้นที่ Work shop แผนก MT</item>
+        <item>ทางเดินอาคาร ด้าน TT-D</item>
+        <item>ทางดินอาคาร ใกล้ประตูทางเข้าแผนก TT</item>
+        <item>ทางเดินอาคาร หน้าห้อง Pilot</item>
+        <item>ในอาคาร LA มุมด้านห้องน้ำ</item>
+        <item>ในอาคาร LA ทางเข้าห้อง Clean room</item>
+        <item>ด้านนอกอาคาร LA ถนนด้านข้าง</item>
+        <item>ชั้นล่างห้อง Facility ข้างบันได</item>
+        <item>หน้าทางเข้าแผนก LA</item>
+        <item>หน้าห้อง ERT</item>
+        <item>ข้างห้อง Fire Pump</item>
+        <item>ข้างห้อง Fire Pump</item>
+        <item>ข้างห้อง Fire Pump</item>
+        <item>ข้างห้อง Fire Pump</item>
+        <item>ข้างห้อง Fire Pump</item>
+        <item>หลัง TT ข้างประตูฉุกเฉิน</item>
+    </string-array>
+    // สภาพทั่วไป
+    <string-array name="generalityFire_cabinetfn5">
+        <item></item>
+        <item>มี</item>
+        <item>ไม่มี</item>
+        <item>ใช่</item>
+        <item>ไม่ใช่</item>
+    </string-array>
+    // Funtion Safety6
+    //สถานที่ติดตั้ง
+    <string-array name="locat_EyeShower">
+        <item></item>
+        <item>กำแพงตรงข้ามประตูมางเข้าห้อง Mixing</item>
+        <item>จุด Tank Load น้ำยาเคมี</item>
+        <item>กำแพงด้านขวาเครื่อง TT #F</item>
+        <item>พื้นที่เก็บขยะแผนก HR</item>
+        <item>สโตร์ MC ฝั่ง KCE</item>
+    </string-array>
+    // ชนิดของอุปกรณ์
+    <string-array name="device_Type_EyeShower">
+        <item></item>
+        <item>Eye Washes No.1</item>
+        <item>Eye Washes and Showers No.2</item>
+        <item>Eye Washes No.3</item>
+        <item>Eye Washes No.4</item>
+        <item>Eye Washes No.5</item>
+    </string-array>
+    // สภาพทั่วไป
+    <string-array name="generality_EyeShower">
+        <item></item>
+        <item>ใช่</item>
+        <item>ไม่ใช่</item>
+        <item>ปกติ</item>
+        <item>ไม่ปกติ</item>
+    </string-array>
+    // Function Safety7
+    //ชนิดของอุปกรณ์
+    <string-array name="Device_Foam_Fire">
+        <item></item>
+        <item>Valve 1</item>
+        <item>Valve 2</item>
+        <item>Valve 3</item>
+        <item>Valve 4</item>
+        <item>Valve 5</item>
+        <item>Valve 6</item>
+        <item>Valve 7</item>
+        <item>Valve 8</item>
+        <item>Valve 9</item>
+        <item>Valve 10</item>
+        <item>Valve 11</item>
+        <item>Valve 12</item>
+        <item>Valve 13</item>
+        <item>Valve 14</item>
+        <item>Valve 15</item>
+        <item>Valve 16</item>
+        <item>Valve 17</item>
+        <item>Valve 18</item>
+        <item>Valve 19</item>
+        <item>Valve 20</item>
+        <item>Valve 21</item>
+        <item>Valve 22</item>
+        <item>Valve 23</item>
+        <item>Valve 24</item>
+        <item>Valve 25</item>
+        <item>Valve 26</item>
+        <item>Valve 27</item>
+        <item>Valve 28</item>
+    </string-array>
+    //สถานที่ติดตั้ง
+    <string-array name="location_Device_Foam_Fire">
+        <item></item>
+        <item>Main Valve</item>
+        <item>Main Valve Sprinkler Resin Tank5</item>
+        <item>Valve Sprinkler Resin Tank5</item>
+        <item>Drain Valve Sprinkler Resin Tank5</item>
+        <item>Main Valve Sprinkler Resin Tank7</item>
+        <item>Valve Sprinkler Resin Tank7</item>
+        <item>Drain Valve Sprinkler Resin Tank7</item>
+        <item>Main Valve Sprinkler Resin Tank6</item>
+        <item>Valve Sprinkler Resin Tank6</item>
+        <item>Drain Valve Sprinkler Resin Tank6</item>
+        <item>Valve Sprinkler MEK Tank1</item>
+        <item>Valve Sprinkler MEK Tank2</item>
+        <item>Valve Sprinkler DMF Tank1</item>
+        <item>Valve Sprinkler DMF Tank2</item>
+        <item>Valve Sprinkler Resin Tank1</item>
+        <item>Valve Sprinkler Resin Tank2</item>
+        <item>Valve Sprinkler Resin Tank3</item>
+        <item>Valve Sprinkler Resin Tank4</item>
+        <item>Main Valve Water of Foam system Resin tank5-9</item>
+        <item>Main Valve Water mix Foam Resin tank5-9</item>
+        <item>Drain Vale</item>
+        <item>Vale Foam Resin Tank5,6,7</item>
+        <item>Main Vale Water mix Foam of DMK,MEK Tank1,2</item>
+        <item>Main Vale Water mix Foam of Resin Tank1-4</item>
+        <item>Vale Foam Resin Tank1-4</item>
+        <item>Vale Foam DMK,MEK Tank1,2</item>
+        <item>Vale of Foam Tank</item>
+        <item>Drain Valve of Foam Tank</item>
+    </string-array>
+    //สภาพทั่วไป
+    <string-array name="generality_Device_Foam">
+        <item></item>
+        <item>ใช่</item>
+        <item>ไม่ใช่</item>
+    </string-array>
+    // Function Safety8
+    //หมายเลขอุปกรณ์
+    <string-array name="id_deviceFn8">
+        <item></item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    //ชนิดของอุปกรณ์
+    <string-array name="Device_Fn8">
+        <item></item>
+        <item>ทราย 1 ถัง + พลั่ว 1 อัน</item>
+        <item>ทราย 2 ถัง + พลั่ว 1 อัน</item>
+        <item>ทราย 2 ถัง + พลั่ว 1 อัน</item>
+        <item>ทราย 4 ถัง + พลั่ว 1 อัน</item>
+        <item>ทราย 2 ถัง + พลั่ว 1 อัน</item>
+        <item>ทราย 1 ถัง + พลั่ว 1 อัน</item>
+        <item>ทราย 1 ถัง + พลั่ว 1 อัน</item>
+        <item>ทราย 1 ถัง + พลั่ว 1 อัน</item>
+        <item>ทราย 1 ถัง + พลั่ว 1 อัน</item>
+    </string-array>
+    //สถานที่ติดตั้ง
+    <string-array name="locat_Fn8">
+        <item></item>
+        <item>ติดกำแพงใกล้ MT Work shop</item>
+        <item>หลังห้อง MIX</item>
+        <item>หน้า Tank Farm</item>
+        <item>หลัง Tank Farm</item>
+        <item>หน้า Store ฝั่ง KCE</item>
+        <item>ที่เก็บขยะ กทม.</item>
+        <item>ห้องใต้ดิน LA</item>
+        <item>หน้าเต็นท์เก็บขยะอันตราย HR</item>
+        <item>หน้าเต็นท์เก็บเคมี MC</item>
+    </string-array>
+    // สภาพทั่วไป
+    <string-array name="generality_Fn8">
+        <item></item>
+        <item>อยู่ครบ/ชำรุด</item>
+        <item>ไม่ครบ/ชำรุด</item>
+        <item>อยู่ครบ/ไม่ชำรุด</item>
+        <item>ไม่ครบ/ไม่ชำรุด</item>
+    </string-array>
+    // Function Safety9
+    // อุปกรณ์
+    <string-array name="Device_CO2fn9">
+        <item></item>
+        <item>ระบบดับเพลิงอัตโนมัติ CO2</item>
+        <item>ระบบดับเพลิง Manual CO2</item>
+    </string-array>
+    //สถานที่ติดตั้ง
+    <string-array name="Locat_CO2fn9">
+        <item></item>
+        <item>ห้อง MIXING</item>
+        <item>ห้อง C</item>
+        <item>ห้อง D</item>
+        <item>ห้อง E</item>
+        <item>ห้อง F</item>
+        <item>ห้อง G</item>
+    </string-array>
+    // สภาพทั่วไป
+    <string-array name="Generality_fn9">
+        <item></item>
+        <item>ทำงาน</item>
+        <item>ไม่ทำงาน</item>
+        <item>ปกติ</item>
+        <item>ไม่ปกติ</item>
+        <item>ใช่</item>
+        <item>ไม่ใช่</item>
+    </string-array>
+    //Function SAFETY10
+    //หมายเลขวาล์ว
+    <string-array name="id_valve">
+        <item></item>
+        <item>V1</item>
+        <item>V2</item>
+        <item>V3</item>
+        <item>V4</item>
+        <item>V5</item>
+        <item>V6</item>
+    </string-array>
+    //สถานที่ติดตั้ง
+    <string-array name="location_valve">
+        <item></item>
+        <item>ในห้อง Fire Pump</item>
+        <item>ในห้อง Fire Pump</item>
+        <item>หน้าห้อง Fire Pump</item>
+        <item>หน้าห้อง Fire Pump</item>
+        <item>ใกล้บันไดทางขึ้น RTO</item>
+        <item>ทางเข้าอาคารอเนกประสงค์</item>
+    </string-array>
+    // สภาพทั่วไป
+    //วาล่ว , กุญแจล็อควาล์ว
+    <string-array name="generality_valve">
+        <item></item>
+        <item>ใช่</item>
+        <item>ไม่ใช่</item>
+    </string-array>
+
+    // Fn Fire Alarm
+    <string name="fnFire_Alarm">ระบบแจ้งเหตุอัตโนมัติ Heat Detecter
+        และ Smoke Detecter (ตรวจทุกเดือน)</string>
+    <string name="fnFire_Alarm3">ระบบแจ้งเหตุอัตโนมัติ Heat Detecter
+        และ Smoke Detecter(ตรวจทุก 3 เดือน)</string>
+    <string name="fnFire_Alarm4">ระบบแจ้งเหตุอัตโนมัติ Smoke Detecter ติดตั้งในตู้ควบคุมไฟฟ้าสำหรับแผนก Treater (ตรวจทุกเดือน)</string>
+    <string name="fnFire_Alarm5">ระบบแจ้งเหตุอัตโนมัติ Smoke Detecter ติดตั้งในตู้ควบคุมไฟฟ้าสำหรับแผนก Treater (ตรวจทุก3เดือน)</string>
+
+    // Function Safety 11
+    // ระบบ Manual
+    // ลำดับที่
+    <string-array name="No_Manual">
+        <item></item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+    </string-array>
+    // Zone
+    <string-array name="Zone_Manual">
+        <item></item>
+        <item>Zone1</item>
+        <item>Zone1</item>
+        <item>Zone2</item>
+        <item>Zone3</item>
+        <item>Zone4</item>
+        <item>Zone6</item>
+        <item>Zone6</item>
+        <item>Zone8</item>
+        <item>Zone9</item>
+        <item>Zone10</item>
+        <item>Zone12</item>
+        <item>Zone13</item>
+        <item>Zone14</item>
+    </string-array>
+    // ตำแหน่งที่ตั้ง
+    <string-array name="Locat_Manual">
+        <item></item>
+        <item>หน้าประตูทางเข้า Office</item>
+        <item>ข้างห้องพยาบาล</item>
+        <item>ข้างห้อง Meeting Room2(ชั้น2)</item>
+        <item>TT D</item>
+        <item>ห้อง Fact. ชั้น2</item>
+        <item>TT G</item>
+        <item>MT Workshop</item>
+        <item>แผนก LA บริเวณเครื่อง Pack</item>
+        <item>แผนก LA ห้อง Lay-up,PP Cutting</item>
+        <item>แผนก LA ทางออกฉุกเฉิน LA123</item>
+        <item>อาคารอเนกประสงค์ ชั้น 1 หน้าบันได</item>
+        <item>อาคารอเนกประสงค์ ชั้น 2 หน้าบันได</item>
+        <item>อาคารอเนกประสงค์ ชั้น 3 หน้าบันได</item>
+    </string-array>
+    // ผลการตรวจสภาพทั่วไป
+    <string-array name="generality_Manual">
+        <item></item>
+        <item>OK</item>
+        <item>NG</item>
+    </string-array>
+    //ผลการทำสอบการทำงาน
+    <string-array name="testWork_Manual">
+        <item></item>
+        <item>OK</item>
+        <item>NG</item>
+    </string-array>
+    //ระบบแจ้งเหตุอัตโนมัติ Heat Detector และ Smoke Detector (ตรวจสภาพทั่วไปทุกเดือน)
+    <string-array name="no_Automatic_eMonths">
+        <item></item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+        <item>71</item>
+        <item>72</item>
+        <item>73</item>
+        <item>74</item>
+        <item>75</item>
+        <item>76</item>
+        <item>77</item>
+        <item>78</item>
+        <item>79</item>
+        <item>80</item>
+        <item>81</item>
+        <item>82</item>
+        <item>83</item>
+        <item>84</item>
+        <item>85</item>
+        <item>86</item>
+        <item>87</item>
+        <item>88</item>
+        <item>89</item>
+        <item>90</item>
+        <item>91</item>
+        <item>92</item>
+        <item>93</item>
+        <item>94</item>
+        <item>95</item>
+        <item>96</item>
+        <item>97</item>
+        <item>98</item>
+        <item>99</item>
+        <item>100</item>
+        <item>101</item>
+        <item>102</item>
+        <item>103</item>
+        <item>104</item>
+        <item>105</item>
+        <item>106</item>
+        <item>107</item>
+        <item>108</item>
+        <item>109</item>
+        <item>110</item>
+        <item>111</item>
+        <item>112</item>
+        <item>113</item>
+        <item>114</item>
+        <item>115</item>
+        <item>116</item>
+        <item>117</item>
+        <item>118</item>
+        <item>119</item>
+        <item>120</item>
+        <item>121</item>
+        <item>122</item>
+        <item>123</item>
+        <item>124</item>
+        <item>125</item>
+        <item>126</item>
+        <item>127</item>
+        <item>128</item>
+        <item>129</item>
+        <item>130</item>
+        <item>131</item>
+        <item>132</item>
+        <item>133</item>
+        <item>134</item>
+        <item>135</item>
+        <item>136</item>
+        <item>137</item>
+    </string-array>
+    // Zone Automatic
+    <string-array name="zone_Automatic_eMonths">
+        <item></item>
+        <item>Zone 1 ชั้นล่าง OFFICE</item>
+        <item>Zone 2 ชั้นบน OFFICE</item>
+        <item>Zone 4 ห้อง Fac</item>
+        <item>Zone 5 OFFICE QA</item>
+        <item>Zone 7 ห้องเย็น1 และ LA line ล่าง</item>
+        <item>Zone 8 Store MC</item>
+        <item>Zone 9 ห้องตัด Prepreg และ Clean room Line บน</item>
+        <item>Zone 10 ห้อง usen และ OEM Press Line บน</item>
+        <item>Zone 11 ห้องใต้ดิน</item>
+        <item>Zone 12 อาคารอเนกประสงค์ ชั้น1</item>
+        <item>Zone 13 อาคารอเนกประสงค์ ชั้น2</item>
+        <item>Zone 14 อาคารอเนกประสงค์ ชั้น3</item>
+    </string-array>
+    // Location_Automatic
+    <string-array name="Location_Automatic_eMonths">
+        <item></item>
+        <item>--- Zone 1 ชั้นล่าง OFFICE ---</item>
+        <item>หน้าตู้ Board แสดง Fire Alarm (H)</item>
+        <item>หน้าห้อง Meeting Room 3 (H)</item>
+        <item>หน้าบันไดทางขึ้นชั้น 2 (H)</item>
+        <item>โต๊ะรับแขก (H)</item>
+        <item>หน้าประตูทางเข้าประชาสัมพันธ์ (ด้านนอก)(H)</item>
+        <item>หน้าประตูทางขึ้น Room 4 (ด้านนอก)(H)</item>
+        <item>ห้อง MT OFFICE (H)</item>
+        <item>ห้องคุณสุมนา (H)</item>
+        <item>ห้องประชุม 8 (H)</item>
+        <item>ห้องคุณวินัย (H)</item>
+        <item>ห้องคุณไพลิน (H)</item>
+        <item>ห้อง Advisor (H)</item>
+        <item>--- Zone 2 ชั้นบน OFFICE ---</item>
+        <item>Meeting Room 2 (S)</item>
+        <item>บนเพดานสูงตรงประชาสัมพันธ์ (H)</item>
+        <item>บนเพดานสูงตรงบันไดขึ้นขั้น 2 (H)</item>
+        <item>หน้าห้อง MD (H)</item>
+        <item>ห้อง MD (H)</item>
+        <item>ห้องบัญชี MD (H)</item>
+        <item>เพดานสูงตรงหน้าห้อง Room 4 (H)</item>
+        <item>ห้อง MIS (S)</item>
+        <item>ห้อง MIS (S)</item>
+        <item>ห้อง Server (S)</item>
+        <item>ห้อง Meeting Room 4 (S)</item>
+        <item>ห้อง Finance Mgr.(H)</item>
+        <item>ห้อง GM (H)</item>
+        <item>ห้อง MT Office (S)</item>
+        <item>ห้อง Meeting Room 6 (S)</item>
+        <item>--- Zone 4 ห้อง Fac ---</item>
+        <item>หน้าประตูทางเข้า Fac ตัวที่1 (H)</item>
+        <item>หน้าประตูทางเข้า Fac ตัวที่2 (S)</item>
+        <item>บนเครื่อง Chiller (H)</item>
+        <item>บนปั๊มเครื่อง Chiller (H)</item>
+        <item>ชั้น 2 Fac ตัวแรก(H)</item>
+        <item>ชั้น 2 Fac ตัวที่2(S)</item>
+        <item>ชั้น 2 ห้องเก็บเอกสาร (H)</item>
+        <item>ห้องควบคุมตู้ไฟ (S)</item>
+        <item>ห้อง LA Store ตัวที่1 (S)</item>
+        <item>ห้อง LA Store ตัวที่2 (S)</item>
+        <item>ห้อง Cold store2 ตัวที่1 (S)</item>
+        <item>ห้อง Cold store2 ตัวที่2 (S)</item>
+        <item>--- Zone 5 OFFICE QA ---</item>
+        <item>ห้องควบคุมของ MT (ฝั่ง TT)(S)</item>
+        <item>QA OFFICE (S)</item>
+        <item>PDTT OFFICE (S)</item>
+        <item>LAB TT (S)</item>
+        <item>--- Zone 7 ห้องเย็น1 และ LA line ล่าง ---</item>
+        <item>ห้องเย็น Store1 ตัวที่1 (S)</item>
+        <item>ห้องเย็น Store1 ตัวที่2 (S)</item>
+        <item>ห้อง Pilot TT (S)</item>
+        <item>ห้อง Pilot Press (H)</item>
+        <item>LA line ล่าง ตัวที่1 (S)</item>
+        <item>LA line ล่าง ตัวที่2 (S)</item>
+        <item>LA line ล่าง ตัวที่3 (S)</item>
+        <item>LA line ล่าง ตัวที่4 (S)</item>
+        <item>LA line ล่าง ตัวที่5 (S)</item>
+        <item>LA line ล่าง ตัวที่6 (S)</item>
+        <item>LA line ล่าง ตัวที่7 (S)</item>
+        <item>LA line ล่าง ตัวที่8 (S)</item>
+        <item>LA line ล่าง ตัวที่9 (S)</item>
+        <item>LA line ล่าง ตัวที่10 (S)</item>
+        <item>ในห้อง Lay up Line 4-5 ตัวที่1 (S)</item>
+        <item>ในห้อง Lay up Line 4-5 ตัวที่2 (S)</item>
+        <item>ชั้น 2 ห้อง AHU ของ Clean room ล่าง (S)</item>
+        <item>--- Zone 8 Store MC ---</item>
+        <item>ใน Store MC ตัวที่1 (S)</item>
+        <item>ใน Store MC ตัวที่2 (S)</item>
+        <item>ใน Store MC ตัวที่3 (S)</item>
+        <item>หน้าประตูเข้า MC ตัวที่1 (S)</item>
+        <item>หน้าประตูเข้า MC ตัวที่2 (S)</item>
+        <item>ติดเครื่อง Packing (S)</item>
+        <item>ห้อง Control Press (H)</item>
+        <item>ห้อง Calibrate (H)</item>
+        <item>LA Document (H)</item>
+        <item>Physical Lab</item>
+        <item>--- Zone 9 ห้องตัด Prepreg และ Clean room Line ---</item>
+        <item>ห้องตัด Prepreg Auto ตัวที่1 (H)</item>
+        <item>ห้องตัด Prepreg Auto ตัวที่2 (H)</item>
+        <item>ห้องตัด Prepreg Auto ตัวที่3 (H)</item>
+        <item>ห้องตัด Prepreg Auto ตัวที่4 (H)</item>
+        <item>ห้อง Clean room ตัวที่1 (H)</item>
+        <item>ห้อง Clean room ตัวที่2 (H)</item>
+        <item>ห้อง Clean room ตัวที่3 (H)</item>
+        <item>ห้อง Clean room ตัวที่4 (H)</item>
+        <item>ห้องเปลี่ยนชุด Clean Room (H)</item>
+        <item>ห้อง AHU ของ Clean Room ชั้นบนตัวที่1 (S)</item>
+        <item>ห้อง AHU ของ Clean Room ชั้นบนตัวที่2 (S)</item>
+        <item>--- Zone 10 ห้อง usun และ OEM Press Line บน ---</item>
+        <item>ห้อง Panel Packing ตัวที่1 (H)</item>
+        <item>ห้อง Panel Packing ตัวที่2 (H)</item>
+        <item>ห้อง AOI (S)</item>
+        <item>ห้อง ETAC CHAMBER (S)</item>
+        <item>ห้อง MT (P123)(S)</item>
+        <item>OEM Press 1,2,3 ตัวที่1 (S)</item>
+        <item>OEM Press 1,2,3 ตัวที่2 (S)</item>
+        <item>OEM Press 1,2,3 ตัวที่3 (S)</item>
+        <item>OEM Press 1,2,3 ตัวที่4 (S)</item>
+        <item>OEM Press 1,2,3 ตัวที่5 (S)</item>
+        <item>OEM Press 1,2,3 ตัวที่6 (S)</item>
+        <item>OEM Press 1,2,3 ตัวที่7 (S)</item>
+        <item>OEM Press 1,2,3 ตัวที่8 (S)</item>
+        <item>OEM Press 1,2,3 ตัวที่9 (S)</item>
+        <item>OEM Press 1,2,3 ตัวที่10 (S)</item>
+        <item>OEM Press 1,2,3 ตัวที่11 (S)</item>
+        <item>OEM Press 1,2,3 ตัวที่12 (S)</item>
+        <item>OEM Press 1,2,3 ตัวที่13 (S)</item>
+        <item>OEM Press 1,2,3 ตัวที่14 (S)</item>
+        <item>OEM Press 1,2,3 ตัวที่15 (S)</item>
+        <item>ห้อง Boiler 1,2,3 ตัวที่1 (S)</item>
+        <item>ห้อง Boiler 1,2,3 ตัวที่2 (S)</item>
+        <item>--- Zone 11 ห้องใต้ดิน ---</item>
+        <item>ห้อง TCU ชั้นใต้ดิน (S)</item>
+        <item>ข้าง Vacuum ห้อง TCU ชั้นใต้ดิน (H)</item>
+        <item>ใต้ Scrubber Line บน ชั้นใต้ดิน (S)</item>
+        <item>--- Zone 12 อาคารอเนกประสงค์ ชั้น1 ---</item>
+        <item>HR Office(S)</item>
+        <item>HR Office(S)</item>
+        <item>HR Manager(S)</item>
+        <item>R,D Manager(S)</item>
+        <item>R,D Office(S)</item>
+        <item>โต๊ะรับสมัครงาน(S)</item>
+        <item>Luandry(S)</item>
+        <item>PE Manager(S)</item>
+        <item>PE Office(S)</item>
+        <item>Meeting Room 10(S)</item>
+        <item>ห้องน้ำหญิง(S)</item>
+        <item>ห้องน้ำชาย(S)</item>
+        <item>MC Manager(S)</item>
+        <item>MC Office(S)</item>
+        <item>Meeting Room 11 (S)</item>
+        <item>--- Zone 13 อาคารอเนกประสงค์ ชั้น2 ---</item>
+        <item>ห้อง VIP (H)</item>
+        <item>มุมหนังสือ (H)</item>
+        <item>หน้าห้องแม่ค้า (H)</item>
+        <item>ในห้องแม่ค้า (H)</item>
+        <item>ในห้องแม่ค้าบริเวณเครื่องล้างจาน (H)</item>
+        <item>กลางโรงอาหาร (H)</item>
+        <item>ท้ายโรงอาหาร (H)</item>
+        <item>--- Zone 14 อาคารอเนกประสงค์ ชั้น3 ---</item>
+        <item>ตัวที่1 (S)</item>
+        <item>ตัวที่2 (S)</item>
+        <item>ตัวที่3 (S)</item>
+        <item>ตัวที่4 (S)</item>
+        <item>ตัวที่5 (S)</item>
+        <item>ตัวที่6 (S)</item>
+        <item>ตัวที่7 (S)</item>
+        <item>ห้องน้ำชาย (S)</item>
+        <item>ห้องน้ำหญิง (S)</item>
+    </string-array>
+    //ผลการตรวจสภาพทั่วไปAuto
+    <string-array name="generality_Auto_eMonths">
+        <item></item>
+        <item>OK</item>
+        <item>NG</item>
+    </string-array>
+
+    //ระบบแจ้งเหตุอัตโนมัติ Heat Detector และ Smoke Detector (ตรวจสภาพทั่วไปทุก3เดือน)
+    <string-array name="no_Automatic_3Months">
+        <item></item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+        <item>71</item>
+        <item>72</item>
+        <item>73</item>
+        <item>74</item>
+        <item>75</item>
+        <item>76</item>
+        <item>77</item>
+        <item>78</item>
+        <item>79</item>
+        <item>80</item>
+        <item>81</item>
+        <item>82</item>
+        <item>83</item>
+        <item>84</item>
+        <item>85</item>
+        <item>86</item>
+        <item>87</item>
+        <item>88</item>
+        <item>89</item>
+        <item>90</item>
+        <item>91</item>
+        <item>92</item>
+        <item>93</item>
+        <item>94</item>
+        <item>95</item>
+        <item>96</item>
+        <item>97</item>
+        <item>98</item>
+        <item>99</item>
+        <item>100</item>
+        <item>101</item>
+        <item>102</item>
+        <item>103</item>
+        <item>104</item>
+        <item>105</item>
+        <item>106</item>
+        <item>107</item>
+        <item>108</item>
+        <item>109</item>
+        <item>110</item>
+        <item>111</item>
+        <item>112</item>
+        <item>113</item>
+        <item>114</item>
+        <item>115</item>
+        <item>116</item>
+        <item>117</item>
+        <item>118</item>
+        <item>119</item>
+        <item>120</item>
+        <item>121</item>
+        <item>122</item>
+        <item>123</item>
+        <item>124</item>
+        <item>125</item>
+        <item>126</item>
+        <item>127</item>
+        <item>128</item>
+        <item>129</item>
+        <item>130</item>
+        <item>131</item>
+        <item>132</item>
+        <item>133</item>
+        <item>134</item>
+        <item>135</item>
+        <item>136</item>
+        <item>137</item>
+    </string-array>
+    // Zone Automatic
+    <string-array name="zone_Automatic_3Months">
+        <item></item>
+        <item>Zone 1 ชั้นล่าง OFFICE</item>
+        <item>Zone 2 ชั้นบน OFFICE</item>
+        <item>Zone 4 ห้อง Fac</item>
+        <item>Zone 5 OFFICE QA</item>
+        <item>Zone 7 ห้องเย็น1 และ LA line ล่าง</item>
+        <item>Zone 8 Store MC</item>
+        <item>Zone 9 ห้องตัด Prepreg และ Clean room Line บน</item>
+        <item>Zone 10 ห้อง usen และ OEM Press Line บน</item>
+        <item>Zone 11 ห้องใต้ดิน</item>
+        <item>Zone 12 อาคารอเนกประสงค์ ชั้น1</item>
+        <item>Zone 13 อาคารอเนกประสงค์ ชั้น2</item>
+        <item>Zone 14 อาคารอเนกประสงค์ ชั้น3</item>
+    </string-array>
+    // Location_Automatic
+    <string-array name="Location_Automatic_3Months">
+        <item></item>
+        <item>--- Zone 1 ชั้นล่าง OFFICE ---</item>
+        <item>หน้าตู้ Board แสดง Fire Alarm (H)</item>
+        <item>หน้าห้อง Meeting Room 3 (H)</item>
+        <item>หน้าบันไดทางขึ้นชั้น 2 (H)</item>
+        <item>โต๊ะรับแขก (H)</item>
+        <item>หน้าประตูทางเข้าประชาสัมพันธ์ (ด้านนอก)(H)</item>
+        <item>หน้าประตูทางขึ้น Room 4 (ด้านนอก)(H)</item>
+        <item>ห้อง MT OFFICE (H)</item>
+        <item>ห้องคุณสุมนา (H)</item>
+        <item>ห้องประชุม 8 (H)</item>
+        <item>ห้องคุณวินัย (H)</item>
+        <item>ห้องคุณไพลิน (H)</item>
+        <item>ห้อง Advisor (H)</item>
+        <item>--- Zone 2 ชั้นบน OFFICE ---</item>
+        <item>Meeting Room 2 (S)</item>
+        <item>บนเพดานสูงตรงประชาสัมพันธ์ (H)</item>
+        <item>บนเพดานสูงตรงบันไดขึ้นขั้น 2 (H)</item>
+        <item>หน้าห้อง MD (H)</item>
+        <item>ห้อง MD (H)</item>
+        <item>ห้องบัญชี MD (H)</item>
+        <item>เพดานสูงตรงหน้าห้อง Room 4 (H)</item>
+        <item>ห้อง MIS (S)</item>
+        <item>ห้อง MIS (S)</item>
+        <item>ห้อง Server (S)</item>
+        <item>ห้อง Meeting Room 4 (S)</item>
+        <item>ห้อง Finance Mgr.(H)</item>
+        <item>ห้อง GM (H)</item>
+        <item>ห้อง MT Office (S)</item>
+        <item>ห้อง Meeting Room 6 (S)</item>
+        <item>--- Zone 4 ห้อง Fac ---</item>
+        <item>หน้าประตูทางเข้า Fac ตัวที่1 (H)</item>
+        <item>หน้าประตูทางเข้า Fac ตัวที่2 (S)</item>
+        <item>บนเครื่อง Chiller (H)</item>
+        <item>บนปั๊มเครื่อง Chiller (H)</item>
+        <item>ชั้น 2 Fac ตัวแรก(H)</item>
+        <item>ชั้น 2 Fac ตัวที่2(S)</item>
+        <item>ชั้น 2 ห้องเก็บเอกสาร (H)</item>
+        <item>ห้องควบคุมตู้ไฟ (S)</item>
+        <item>ห้อง LA Store ตัวที่1 (S)</item>
+        <item>ห้อง LA Store ตัวที่2 (S)</item>
+        <item>ห้อง Cold store2 ตัวที่1 (S)</item>
+        <item>ห้อง Cold store2 ตัวที่2 (S)</item>
+        <item>--- Zone 5 OFFICE QA ---</item>
+        <item>ห้องควบคุมของ MT (ฝั่ง TT)(S)</item>
+        <item>QA OFFICE (S)</item>
+        <item>PDTT OFFICE (S)</item>
+        <item>LAB TT (S)</item>
+        <item>--- Zone 7 ห้องเย็น1 และ LA line ล่าง ---</item>
+        <item>ห้องเย็น Store1 ตัวที่1 (S)</item>
+        <item>ห้องเย็น Store1 ตัวที่2 (S)</item>
+        <item>ห้อง Pilot TT (S)</item>
+        <item>ห้อง Pilot Press (H)</item>
+        <item>LA line ล่าง ตัวที่1 (S)</item>
+        <item>LA line ล่าง ตัวที่2 (S)</item>
+        <item>LA line ล่าง ตัวที่3 (S)</item>
+        <item>LA line ล่าง ตัวที่4 (S)</item>
+        <item>LA line ล่าง ตัวที่5 (S)</item>
+        <item>LA line ล่าง ตัวที่6 (S)</item>
+        <item>LA line ล่าง ตัวที่7 (S)</item>
+        <item>LA line ล่าง ตัวที่8 (S)</item>
+        <item>LA line ล่าง ตัวที่9 (S)</item>
+        <item>LA line ล่าง ตัวที่10 (S)</item>
+        <item>ในห้อง Lay up Line 4-5 ตัวที่1 (S)</item>
+        <item>ในห้อง Lay up Line 4-5 ตัวที่2 (S)</item>
+        <item>ชั้น 2 ห้อง AHU ของ Clean room ล่าง (S)</item>
+        <item>--- Zone 8 Store MC ---</item>
+        <item>ใน Store MC ตัวที่1 (S)</item>
+        <item>ใน Store MC ตัวที่2 (S)</item>
+        <item>ใน Store MC ตัวที่3 (S)</item>
+        <item>หน้าประตูเข้า MC ตัวที่1 (S)</item>
+        <item>หน้าประตูเข้า MC ตัวที่2 (S)</item>
+        <item>ติดเครื่อง Packing (S)</item>
+        <item>ห้อง Control Press (H)</item>
+        <item>ห้อง Calibrate (H)</item>
+        <item>LA Document (H)</item>
+        <item>Physical Lab</item>
+        <item>--- Zone 9 ห้องตัด Prepreg และ Clean room Line ---</item>
+        <item>ห้องตัด Prepreg Auto ตัวที่1 (H)</item>
+        <item>ห้องตัด Prepreg Auto ตัวที่2 (H)</item>
+        <item>ห้องตัด Prepreg Auto ตัวที่3 (H)</item>
+        <item>ห้องตัด Prepreg Auto ตัวที่4 (H)</item>
+        <item>ห้อง Clean room ตัวที่1 (H)</item>
+        <item>ห้อง Clean room ตัวที่2 (H)</item>
+        <item>ห้อง Clean room ตัวที่3 (H)</item>
+        <item>ห้อง Clean room ตัวที่4 (H)</item>
+        <item>ห้องเปลี่ยนชุด Clean Room (H)</item>
+        <item>ห้อง AHU ของ Clean Room ชั้นบนตัวที่1 (S)</item>
+        <item>ห้อง AHU ของ Clean Room ชั้นบนตัวที่2 (S)</item>
+        <item>--- Zone 10 ห้อง usun และ OEM Press Line บน ---</item>
+        <item>ห้อง Panel Packing ตัวที่1 (H)</item>
+        <item>ห้อง Panel Packing ตัวที่2 (H)</item>
+        <item>ห้อง AOI (S)</item>
+        <item>ห้อง ETAC CHAMBER (S)</item>
+        <item>ห้อง MT (P123)(S)</item>
+        <item>OEM Press 1,2,3 ตัวที่1 (S)</item>
+        <item>OEM Press 1,2,3 ตัวที่2 (S)</item>
+        <item>OEM Press 1,2,3 ตัวที่3 (S)</item>
+        <item>OEM Press 1,2,3 ตัวที่4 (S)</item>
+        <item>OEM Press 1,2,3 ตัวที่5 (S)</item>
+        <item>OEM Press 1,2,3 ตัวที่6 (S)</item>
+        <item>OEM Press 1,2,3 ตัวที่7 (S)</item>
+        <item>OEM Press 1,2,3 ตัวที่8 (S)</item>
+        <item>OEM Press 1,2,3 ตัวที่9 (S)</item>
+        <item>OEM Press 1,2,3 ตัวที่10 (S)</item>
+        <item>OEM Press 1,2,3 ตัวที่11 (S)</item>
+        <item>OEM Press 1,2,3 ตัวที่12 (S)</item>
+        <item>OEM Press 1,2,3 ตัวที่13 (S)</item>
+        <item>OEM Press 1,2,3 ตัวที่14 (S)</item>
+        <item>OEM Press 1,2,3 ตัวที่15 (S)</item>
+        <item>ห้อง Boiler 1,2,3 ตัวที่1 (S)</item>
+        <item>ห้อง Boiler 1,2,3 ตัวที่2 (S)</item>
+        <item>--- Zone 11 ห้องใต้ดิน ---</item>
+        <item>ห้อง TCU ชั้นใต้ดิน (S)</item>
+        <item>ข้าง Vacuum ห้อง TCU ชั้นใต้ดิน (H)</item>
+        <item>ใต้ Scrubber Line บน ชั้นใต้ดิน (S)</item>
+        <item>--- Zone 12 อาคารอเนกประสงค์ ชั้น1 ---</item>
+        <item>HR Office(S)</item>
+        <item>HR Office(S)</item>
+        <item>HR Manager(S)</item>
+        <item>R,D Manager(S)</item>
+        <item>R,D Office(S)</item>
+        <item>โต๊ะรับสมัครงาน(S)</item>
+        <item>Luandry(S)</item>
+        <item>PE Manager(S)</item>
+        <item>PE Office(S)</item>
+        <item>Meeting Room 10(S)</item>
+        <item>ห้องน้ำหญิง(S)</item>
+        <item>ห้องน้ำชาย(S)</item>
+        <item>MC Manager(S)</item>
+        <item>MC Office(S)</item>
+        <item>Meeting Room 11 (S)</item>
+        <item>--- Zone 13 อาคารอเนกประสงค์ ชั้น2 ---</item>
+        <item>ห้อง VIP (H)</item>
+        <item>มุมหนังสือ (H)</item>
+        <item>หน้าห้องแม่ค้า (H)</item>
+        <item>ในห้องแม่ค้า (H)</item>
+        <item>ในห้องแม่ค้าบริเวณเครื่องล้างจาน (H)</item>
+        <item>กลางโรงอาหาร (H)</item>
+        <item>ท้ายโรงอาหาร (H)</item>
+        <item>--- Zone 14 อาคารอเนกประสงค์ ชั้น3 ---</item>
+        <item>ตัวที่1 (S)</item>
+        <item>ตัวที่2 (S)</item>
+        <item>ตัวที่3 (S)</item>
+        <item>ตัวที่4 (S)</item>
+        <item>ตัวที่5 (S)</item>
+        <item>ตัวที่6 (S)</item>
+        <item>ตัวที่7 (S)</item>
+        <item>ห้องน้ำชาย (S)</item>
+        <item>ห้องน้ำหญิง (S)</item>
+    </string-array>
+    // ผลการทดสอบการทำงาน
+    <string-array name="testWork_Auto_3Months">
+        <item></item>
+        <item>OK</item>
+        <item>NG</item>
+    </string-array>
+
+
+    //ระบบแจ้งเหตุอัตโนมัติ Smoke Detector ในตู้ควบคุมไฟฟ้าสำหรับแผนก Treater
+    (ตรวจสภาพทั่วไปทุกเดือน)
+    <string-array name="no_Auto_Smoke_eMonths">
+        <item></item>
+        <item>138</item>
+        <item>139</item>
+        <item>140</item>
+        <item>141</item>
+        <item>142</item>
+        <item>143</item>
+        <item>144</item>
+        <item>145</item>
+        <item>146</item>
+        <item>147</item>
+        <item>148</item>
+        <item>149</item>
+        <item>150</item>
+        <item>151</item>
+        <item>152</item>
+        <item>153</item>
+        <item>154</item>
+        <item>155</item>
+        <item>156</item>
+        <item>157</item>
+        <item>158</item>
+        <item>159</item>
+        <item>160</item>
+        <item>161</item>
+        <item>162</item>
+        <item>163</item>
+        <item>164</item>
+        <item>165</item>
+        <item>166</item>
+        <item>167</item>
+        <item>168</item>
+        <item>169</item>
+        <item>170</item>
+        <item>171</item>
+        <item>172</item>
+        <item>173</item>
+        <item>174</item>
+        <item>175</item>
+        <item>176</item>
+        <item>177</item>
+        <item>178</item>
+    </string-array>
+    // Zone Smoke Auto แผนก Treater
+    <string-array name="Zone_Auto_Treater_eMonths">
+        <item></item>
+        <item>Zone 1</item>
+        <item>Zone 2</item>
+        <item>Zone 3</item>
+        <item>Zone 4</item>
+        <item>Zone 5</item>
+        <item>Zone 6</item>
+    </string-array>
+    //สถานที่ติดตั้ง Smoke Auto แผนก Treater
+    <string-array name="locat_Auto_Treater_eMonths">
+        <item></item>
+        <item>--- Zone 1 ---</item>
+        <item>TT-C ในห้องควบคุมไฟฟ้าชั้น2 (S)</item>
+        <item>TT-C ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-C ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-C ภายในตู้ Control ด้านใน (S)</item>
+        <item>--- Zone 2 ---</item>
+        <item>TT-D ในตู้ Control RTO (S)</item>
+        <item>TT-D ในห้องควบคุมไฟฟ้าชั้น2 (S)</item>
+        <item>TT-D ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-D ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-D ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-D ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-D ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-D ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-D ภายในตู้ Control ด้านใน (S)</item>
+        <item>--- Zone 3 ---</item>
+        <item>TT-E ในตู้ Control RTO (S)</item>
+        <item>TT-E ในห้องควบคุมไฟฟ้าชั้น2 (S)</item>
+        <item>TT-E ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-E ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-E ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-E ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-E ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-E ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-E ภายในตู้ Control ด้านใน (S)</item>
+        <item>--- Zone 4 ---</item>
+        <item>TT-F ในตู้ Control RTO (S)</item>
+        <item>TT-F ในห้องควบคุมไฟฟ้าชั้น2 (S)</item>
+        <item>TT-F ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-F ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-F ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-F ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-F ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-F ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-F ภายในตู้ Control ด้านใน (S)</item>
+        <item>--- Zone 5 ---</item>
+        <item>TT-MIXING ในตู้ Control (S)</item>
+        <item>--- Zone 6 ---</item>
+        <item>TT-G ในตู้ Control RTO (S)</item>
+        <item>TT-G ในห้องควบคุมไฟฟ้าชั้น2 (S)</item>
+        <item>TT-G ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-G ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-G ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-G ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-G ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-G ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-G ภายในตู้ Control ด้านใน (S)</item>
+    </string-array>
+    //ผลการตรวจสภาพทั่วไป Smoke Auto แผนก Treater
+    <string-array name="generality_auto_Treater_eMonths">
+        <item></item>
+        <item>OK</item>
+        <item>NG</item>
+    </string-array>
+
+    //ระบบแจ้งเหตุอัตโนมัติ Smoke Detector ในตู้ควบคุมไฟฟ้าสำหรับแผนก Treater
+    (ตรวจสภาพทั่วไปทุก3เดือน)
+    <string-array name="no_Auto_Smoke_3Months">
+        <item></item>
+        <item>138</item>
+        <item>139</item>
+        <item>140</item>
+        <item>141</item>
+        <item>142</item>
+        <item>143</item>
+        <item>144</item>
+        <item>145</item>
+        <item>146</item>
+        <item>147</item>
+        <item>148</item>
+        <item>149</item>
+        <item>150</item>
+        <item>151</item>
+        <item>152</item>
+        <item>153</item>
+        <item>154</item>
+        <item>155</item>
+        <item>156</item>
+        <item>157</item>
+        <item>158</item>
+        <item>159</item>
+        <item>160</item>
+        <item>161</item>
+        <item>162</item>
+        <item>163</item>
+        <item>164</item>
+        <item>165</item>
+        <item>166</item>
+        <item>167</item>
+        <item>168</item>
+        <item>169</item>
+        <item>170</item>
+        <item>171</item>
+        <item>172</item>
+        <item>173</item>
+        <item>174</item>
+        <item>175</item>
+        <item>176</item>
+        <item>177</item>
+        <item>178</item>
+    </string-array>
+    // Zone Smoke Auto แผนก Treater
+    <string-array name="Zone_Auto_Treater_3Months">
+        <item></item>
+        <item>Zone 1</item>
+        <item>Zone 2</item>
+        <item>Zone 3</item>
+        <item>Zone 4</item>
+        <item>Zone 5</item>
+        <item>Zone 6</item>
+    </string-array>
+    //สถานที่ติดตั้ง Smoke Auto แผนก Treater
+    <string-array name="locat_Auto_Treater_3Months">
+        <item></item>
+        <item>--- Zone 1 ---</item>
+        <item>TT-C ในห้องควบคุมไฟฟ้าชั้น2 (S)</item>
+        <item>TT-C ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-C ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-C ภายในตู้ Control ด้านใน (S)</item>
+        <item>--- Zone 2 ---</item>
+        <item>TT-D ในตู้ Control RTO (S)</item>
+        <item>TT-D ในห้องควบคุมไฟฟ้าชั้น2 (S)</item>
+        <item>TT-D ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-D ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-D ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-D ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-D ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-D ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-D ภายในตู้ Control ด้านใน (S)</item>
+        <item>--- Zone 3 ---</item>
+        <item>TT-E ในตู้ Control RTO (S)</item>
+        <item>TT-E ในห้องควบคุมไฟฟ้าชั้น2 (S)</item>
+        <item>TT-E ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-E ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-E ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-E ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-E ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-E ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-E ภายในตู้ Control ด้านใน (S)</item>
+        <item>--- Zone 4 ---</item>
+        <item>TT-F ในตู้ Control RTO (S)</item>
+        <item>TT-F ในห้องควบคุมไฟฟ้าชั้น2 (S)</item>
+        <item>TT-F ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-F ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-F ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-F ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-F ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-F ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-F ภายในตู้ Control ด้านใน (S)</item>
+        <item>--- Zone 5 ---</item>
+        <item>TT-MIXING ในตู้ Control (S)</item>
+        <item>--- Zone 6 ---</item>
+        <item>TT-G ในตู้ Control RTO (S)</item>
+        <item>TT-G ในห้องควบคุมไฟฟ้าชั้น2 (S)</item>
+        <item>TT-G ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-G ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-G ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-G ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-G ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-G ภายในตู้ Control ด้านใน (S)</item>
+        <item>TT-G ภายในตู้ Control ด้านใน (S)</item>
+    </string-array>
+    // ผลการทดสอบการทำงาน
+    <string-array name="testWork_AutoTreater_3Months">
+        <item></item>
+        <item>OK</item>
+        <item>NG</item>
+    </string-array>
+    // Function Safety 3 แบบฟอร์มตรวจเช็คถังดับเพลิง
+    // หมายเลขจุดติดตั้ง
+    <string-array name="No_Fn3">
+        <item></item>
+        <item>No.1</item>
+        <item>No.2</item>
+        <item>No.3</item>
+        <item>No.4</item>
+        <item>No.5</item>
+        <item>No.6</item>
+        <item>No.7</item>
+        <item>No.8</item>
+        <item>No.9</item>
+        <item>No.10</item>
+        <item>No.11</item>
+        <item>No.12</item>
+        <item>No.13</item>
+        <item>No.14</item>
+        <item>No.15</item>
+        <item>No.16</item>
+        <item>No.17</item>
+        <item>No.18</item>
+        <item>No.19</item>
+        <item>No.20</item>
+        <item>No.21</item>
+        <item>No.22</item>
+        <item>No.23</item>
+        <item>No.24</item>
+        <item>No.25</item>
+        <item>No.26</item>
+        <item>No.27</item>
+        <item>No.28</item>
+        <item>No.29</item>
+        <item>No.30</item>
+        <item>No.31</item>
+        <item>No.32</item>
+        <item>No.33</item>
+        <item>No.34</item>
+        <item>No.35</item>
+        <item>No.36</item>
+        <item>No.37</item>
+        <item>No.38</item>
+        <item>No.39</item>
+        <item>No.40</item>
+        <item>No.41</item>
+        <item>No.42</item>
+        <item>No.43</item>
+        <item>No.44</item>
+        <item>No.45</item>
+        <item>No.46</item>
+        <item>No.47</item>
+        <item>No.48</item>
+        <item>No.49</item>
+        <item>No.50</item>
+        <item>No.51</item>
+        <item>No.52</item>
+        <item>No.53</item>
+        <item>No.54</item>
+        <item>No.55</item>
+        <item>No.56</item>
+        <item>No.57</item>
+        <item>No.58</item>
+        <item>No.59</item>
+        <item>No.60</item>
+        <item>No.61</item>
+        <item>No.62</item>
+        <item>No.63</item>
+        <item>No.64</item>
+        <item>No.65</item>
+        <item>No.66</item>
+        <item>No.67</item>
+        <item>No.68</item>
+        <item>No.69</item>
+        <item>No.70</item>
+        <item>No.71</item>
+        <item>No.72</item>
+        <item>No.73</item>
+        <item>No.74</item>
+        <item>No.75</item>
+        <item>No.76</item>
+        <item>No.77</item>
+        <item>No.78</item>
+        <item>No.79</item>
+        <item>No.80</item>
+        <item>No.81</item>
+        <item>No.82</item>
+        <item>No.83</item>
+        <item>No.84</item>
+        <item>No.85</item>
+        <item>No.86</item>
+        <item>No.87</item>
+        <item>No.88</item>
+        <item>No.89</item>
+        <item>No.90</item>
+        <item>No.91</item>
+        <item>No.92</item>
+        <item>No.93</item>
+        <item>No.94</item>
+        <item>No.95</item>
+        <item>No.96</item>
+        <item>No.97</item>
+        <item>No.98</item>
+        <item>No.99</item>
+        <item>No.100</item>
+        <item>No.101</item>
+        <item>No.102</item>
+        <item>No.103</item>
+        <item>No.104</item>
+        <item>No.105</item>
+        <item>No.106</item>
+        <item>No.107</item>
+        <item>No.108</item>
+        <item>No.109</item>
+        <item>No.110</item>
+        <item>No.111</item>
+        <item>No.112</item>
+        <item>No.113</item>
+        <item>No.114</item>
+        <item>No.115</item>
+        <item>No.116</item>
+        <item>No.117</item>
+        <item>No.118</item>
+        <item>No.119</item>
+        <item>No.120</item>
+        <item>No.121</item>
+        <item>No.122</item>
+        <item>No.123</item>
+        <item>No.124</item>
+        <item>No.125</item>
+        <item>No.126</item>
+        <item>No.127</item>
+        <item>No.128</item>
+        <item>No.129</item>
+        <item>No.130</item>
+        <item>No.131</item>
+        <item>No.132</item>
+        <item>No.133</item>
+        <item>No.134</item>
+        <item>No.135</item>
+        <item>No.136</item>
+        <item>No.137</item>
+        <item>No.138</item>
+        <item>No.139</item>
+        <item>No.140</item>
+        <item>No.141</item>
+        <item>No.142</item>
+    </string-array>
+    // ชนิดของอุปกรณ์
+    <string-array name="Type_Device_Fn3">
+        <item></item>
+        <item>CO2</item>
+        <item>ถังดับเพลิง SoftEx</item>
+        <item>เคมีแห้ง ขนาด 15 ปอนด์</item>
+        <item>ถังดับเพลิง ABFFC</item>
+        <item>ถังดับเพลิงเคมีแห้ง</item>
+        <item>ถังดับเพลิง ABFFC(ชนิดเข็น)</item>
+        <item>ABFFC ขนาด 15 ปอนด์</item>
+        <item>ABFFC(ชนิดเข็น) ขนาด 50 ปอนด์</item>
+    </string-array>
+    // สถานที่ติดตั้ง
+    <string-array name="location_Fn3">
+        <item></item>
+        <item>ชั้นบน Office</item>
+        <item>ชั้นล่างหน้าห้องน้ำ Office</item>
+        <item>ห้อง ประชุม4</item>
+        <item>ห้อง ประชุม6</item>
+        <item>เต็นท์เก็บขยะ HR</item>
+        <item>โรงจอดรถผู้บริหาร</item>
+        <item>ข้างห้อง MT Office</item>
+        <item>ทางเข้า LA</item>
+        <item>ในห้อง QA Office</item>
+        <item>หน้า lab TT</item>
+        <item>ห้อง TREATER F</item>
+        <item>หลังห้อง pilot</item>
+        <item>ชั้นล่าง Treater C</item>
+        <item>ชั้น 2 Treater C</item>
+        <item>ชั้นล่าง Treater D</item>
+        <item>ชั้นล่าง Treater E</item>
+        <item>ชั้นลอย RTO</item>
+        <item>ด้านหลัง Trimmer LA1-2-3</item>
+        <item>ในห้องตัด PREPREG MANUL</item>
+        <item>ในห้องตัด PREPREG AUTO</item>
+        <item>ห้อง Layup Line 1-2-3</item>
+        <item>LA 123 ข้างตู้ control</item>
+        <item>เครื่องชั่งน้ำหนัก LA45</item>
+        <item>TT G ชั้น 2</item>
+        <item>ชั้นลอย ห้อง Facility - 1</item>
+        <item>รอบ TANK เก็บน้ำยาเคมี</item>
+        <item>STORE ของ TLM ที่อยู่ KCE(สำรอง)</item>
+        <item>Store KCE(เช่า)</item>
+        <item>TT D ชั้น 2</item>
+        <item>เต็นท์ HR</item>
+        <item>TT E ชั้น 2</item>
+        <item>LA 45 ด้านหน้า</item>
+        <item>TT F ชั้น 2</item>
+        <item>สถานีส่ง ก๊าซ ปตท.</item>
+        <item>ด้านหลังห้อง MIX ใกล้กำแพง</item>
+        <item>กำแพงด้านซ้าย ห้อง MIX</item>
+        <item>ห้อง Facility</item>
+        <item>ห้อง เก็บเอกสาร</item>
+        <item>ชั้นลอย ห้อง Facility - 2</item>
+        <item>STORE ของ TLM ที่อยู่ KCE</item>
+        <item>ห้องอุปกรณ์ดับเพลิง(สำรอง)</item>
+        <item>รถบรรทุกของแผนก MC</item>
+        <item>TLM 2</item>
+        <item>ห้องใต้ดิน</item>
+        <item>ห้อง Layup line 45</item>
+        <item>ห้อง MDB</item>
+        <item>หน้าห้อง TT</item>
+        <item>พื้นที่วางถังแก๊สของโรงงาน</item>
+        <item>เต็นท์ MC</item>
+        <item>หลังโรงงาน</item>
+        <item>ห้อง Boiler Hot Oil # 1</item>
+        <item>หน้า MC Store</item>
+        <item>Cold Store</item>
+        <item>หน้า MC Loading</item>
+        <item>LA Break Down</item>
+        <item>ทางออกฉุกเฉินใกล้ถังขยะ กทม.</item>
+        <item>อาคารอเนกประสงค์ชั้น2 (ในห้องครัว)</item>
+        <item>หน้าเครื่องถ่ายเอกสาร</item>
+        <item>อาคารอเนกประสงค์ชั้น 1</item>
+        <item>อาคารอเนกประสงค์ชั้น 2</item>
+        <item>อาคารอเนกประสงค์ชั้น 3</item>
+        <item>QA lab บน</item>
+        <item>ห้อง TREATER G</item>
+    </string-array>
+    // สภาพทั่วไป
+    <string-array name="generality_Fn3">
+        <item></item>
+        <item>ใช่</item>
+        <item>ไม่ใช่</item>
+        <item>ปกติ</item>
+        <item>ไม่ปกติ</item>
+    </string-array>
+
+    // Add TO SubFunction12
+    <!--    <string-array name="Inspect_AddToSubFunction_motor">-->
+    <!--        <item>-SELECT-</item>-->
+    <!--        <item>เครื่องยนต์</item>-->
+    <!--        <item>Jockey Pump</item>-->
+    <!--        <item>แบตเตอรี่</item>-->
+    <!--        <item>น้ำ</item>-->
+    <!--        <item>ตู้ควบคุมไฟฟ้า</item>-->
+    <!--        <item>การทดสอบการทำงาน</item>-->
+    <!--        <item>ห้องFIRE PUMP</item>-->
+    <!--    </string-array>-->
+
+    <string-array name="choice_Fn12">
+        <item></item>
+        <item>OK</item>
+        <item>NG</item>
+    </string-array>
+
+    // เก็บค่าในหน้า User_login
+
+    <string name="action_settings">Settings</string>
+    <string name="minimum_password">Please insert 6 digits</string>
+    <string name="auth_failed">Authentication Fail!</string>
+    <string name="title_activity_authen">AuthenActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    ///
+
+    <string name="prompt_password">Enter Password here</string>
+    <string name="action_logout">logout</string>
+    <string name="action_sign_in_short">Register</string>
+    <string name="email">Email</string>
+    <string name="password_length">Password too short, enter minimum 6 characters!</string>
+    <string name="failed_auth">Authentication failed, check your email and password or sign up</string>
+    <string name="change_email">Change Email</string>
+    <string name="change_password">Change Password</string>
+    <string name="send_password_reset_email">Send Password reset email</string>
+    <string name="remove_user">Remove user</string>
+    <string name="new_pass">Please enter New Password</string>
+    <string name="activity_profile">Firebase</string>
+    <string name="activity_login">Sign in</string>
+    <string name="hint_email">Enter Email address</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="login_button">LOGIN</string>
+    <string name="link_to_register">Need to signup Get registere now!</string>
+    <string name="link_to_login">Already registered. Login Me!</string>
+    <string name="activity_reset_password">ResetPasswordActivity</string>
+    <string name="forgot_password_button">Forgot your password?</string>
+    <string name="reset_password_button">Reset Password</string>
+    <string name="back_button"><![CDATA[<< Back]]></string>
+    <string name="hint_new_email">Enter New Email</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="forgot_password">Forgot password???</string>
+    <string name="forgot_password_msg">We just need your registered Email to send password.</string>
+
+    ////
+    <string name="app_namee">Realtime Database</string>
+    <string name="hint_namee">Full Name</string>
+    <string name="hint_emaill">Email</string>
+    <string name="action_save">Save</string>
+    <string name="name">Name</string>
+    <string name="emaill">Email</string>
+    /// testspinner insert
+    <array name="group">
+        <item>Admin</item>
+        <item>User</item>
+        <item>Guest</item>
+    </array>
+
+
+    /// /test dialog ////
+    <string name="label1">ความต้องการ</string>
+    <string name="label2">หัวข้อที่ 2</string>
+    <string name="label3">หัวข้อที่ 3</string>
+    <string name="label4">หัวข้อที่ 4</string>
+    <string name="label5">หัวข้อที่ 5</string>
+
+    <string name="label6">ความต้องการ</string>
+    <string name="label7">รู้สึก</string>
+    <string name="label8">คำถาม</string>
+    <string name="label9">เร่งดวน</string>
+
+    <string name="title1">หน้าหลัก</string>
+    <string name="choose_gender">เลือกเพศ</string>
+
+
+    //////////////// Test01 ////////////////
+
+
+</resources>

@@ -1,0 +1,2538 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/btn_3_Fn_12"
+    tools:context=".FIRE_PUMP">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Toolbar"
+                android:background="@color/colorPrimary">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/im_back_arrow_FirePump"
+                    android:src="@drawable/back50"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="38dp"
+                    android:text=" FIRE  PUMP"
+                    android:textColor="@color/colorBlack"
+                    android:theme="@style/MyFont" />
+            </androidx.appcompat.widget.Toolbar>
+
+            <TextView
+                android:id="@+id/datefn12_FirePump"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/frame_background_white"
+                android:gravity="center"
+                android:paddingTop="5dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:paddingBottom="5dp"
+                android:text="DATE/TIME"
+                android:textColor="@color/colorBlack"
+                android:textSize="20dp"
+                android:theme="@style/MyFont" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:text="แบตเตอรี่"
+                android:textColor="@color/colorBlack"
+                android:textSize="30dp"
+                android:theme="@style/MyFont" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="320dp"
+                android:background="@color/colorBlack"
+                android:textAppearance="@style/MyFont" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="15dp"
+                android:text="แบตเตอรี่ No.1 12V 90Ah
+                    (for start AUTO)  มาตรฐานแรงดันที่ 12.6vdc"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white"
+                android:theme="@style/spinnerItemStyle">
+
+                <Spinner
+                    android:id="@+id/spinner_fnsafety12_Firepump_ฺBattery1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="7dp"
+                    android:entries="@array/choice_Fn12"
+                    android:theme="@style/spinnerItemStyle" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:text="หมายเหตุ"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white">
+
+                <EditText
+                    android:id="@+id/notationfn12_2_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:paddingLeft="10dp"
+                    android:theme="@style/MyFont"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@color/colorBlack"
+                android:textAppearance="@style/MyFont" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="23dp"
+                android:text="แบตเตอรี่ No.2 12V 150Ah
+                    (for start Manual) มาตรฐานแรงดันที่ 12.6vdc"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white"
+                android:theme="@style/spinnerItemStyle">
+
+                <Spinner
+                    android:id="@+id/spinner_fnsafety12_Firepump_ฺBattery2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="7dp"
+                    android:entries="@array/choice_Fn12"
+                    android:theme="@style/spinnerItemStyle" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:text="หมายเหตุ"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white">
+
+                <EditText
+                    android:id="@+id/notationfn12_2_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:paddingLeft="10dp"
+                    android:theme="@style/MyFont"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@color/colorBlack"
+                android:textAppearance="@style/MyFont" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="23dp"
+                android:text="ระดับน้ำกลั่นแบตเตอรี่ 1 อยู่ในระดับที่กำหนด
+                ขีดบน"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white"
+                android:theme="@style/spinnerItemStyle">
+
+                <Spinner
+                    android:id="@+id/spinner_fnsafety12_Firepump_Battery3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginTop="7dp"
+                    android:entries="@array/choice_Fn12"
+                    android:theme="@style/spinnerItemStyle" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:text="หมายเหตุ"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white">
+
+                <EditText
+                    android:id="@+id/notationfn12_2_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:paddingLeft="10dp"
+                    android:theme="@style/MyFont"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@color/colorBlack"
+                android:textAppearance="@style/MyFont" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="23dp"
+                android:text="ระดับน้ำกลั่นแบตเตอรี่ 2 อยู่ในระดับที่กำหนด
+                ขีดบน"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white"
+                android:theme="@style/spinnerItemStyle">
+
+                <Spinner
+                    android:id="@+id/spinner_fnsafety12_Firepump_Battery4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginTop="7dp"
+                    android:entries="@array/choice_Fn12"
+                    android:theme="@style/spinnerItemStyle" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:text="หมายเหตุ"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white">
+
+                <EditText
+                    android:id="@+id/notationfn12_2_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:paddingLeft="10dp"
+                    android:theme="@style/MyFont"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="28dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@color/colorBlack"
+                android:textAppearance="@style/MyFont" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="23dp"
+                android:text="เครื่องยนต์"
+                android:textColor="@color/colorBlack"
+                android:textSize="30dp"
+                android:theme="@style/MyFont" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="315dp"
+                android:background="@color/colorBlack"
+                android:textAppearance="@style/MyFont" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="23dp"
+                android:text="น้ำหล่อเย็น อยู่ในระดับเต็ม"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white"
+                android:theme="@style/spinnerItemStyle">
+
+                <Spinner
+                    android:id="@+id/spinner_fnsafety12_Firepump_Motor1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="7dp"
+                    android:entries="@array/choice_Fn12"
+                    android:theme="@style/spinnerItemStyle" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:text="หมายเหตุ"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white">
+
+                <EditText
+                    android:id="@+id/notationfn12_2_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="20dp"
+                    android:theme="@style/MyFont" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@color/colorBlack"
+                android:textAppearance="@style/MyFont" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="23dp"
+                android:text="น้ำมันเครื่อง อยู่ในระดับที่กำหนด"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white"
+                android:theme="@style/spinnerItemStyle">
+
+                <Spinner
+                    android:id="@+id/spinner_fnsafety12_Firepump_Motor2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="7dp"
+                    android:entries="@array/choice_Fn12"
+                    android:theme="@style/spinnerItemStyle" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:text="หมายเหตุ"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white">
+
+                <EditText
+                    android:id="@+id/notationfn12_2_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:paddingLeft="10dp"
+                    android:theme="@style/MyFont"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@color/colorBlack"
+                android:textAppearance="@style/MyFont" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="23dp"
+                android:text="น้ำมันเชื้อเพลิง อยู่ในระดับ 80% ของถังบรรจุ"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white"
+                android:theme="@style/spinnerItemStyle">
+
+                <Spinner
+                    android:id="@+id/spinner_fnsafety12_Firepump_Motor3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="7dp"
+                    android:entries="@array/choice_Fn12"
+                    android:theme="@style/spinnerItemStyle" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:text="หมายเหตุ"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white">
+
+                <EditText
+                    android:id="@+id/notationfn12_2_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:paddingLeft="10dp"
+                    android:theme="@style/MyFont"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@color/colorBlack"
+                android:textAppearance="@style/MyFont" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="23dp"
+                android:text="สายพานขับเคลื่อน ไม่ชำรุด"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white"
+                android:theme="@style/spinnerItemStyle">
+
+                <Spinner
+                    android:id="@+id/spinner_fnsafety12_Firepump_Motor4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="7dp"
+                    android:entries="@array/choice_Fn12"
+                    android:theme="@style/spinnerItemStyle" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:text="หมายเหตุ"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white">
+
+                <EditText
+                    android:id="@+id/notationfn12_2_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:paddingLeft="10dp"
+                    android:theme="@style/MyFont"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@color/colorBlack"
+                android:textAppearance="@style/MyFont" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="23dp"
+                android:text="น็อต สกรู จับยึดแท่นเครื่องยึดแน่นทุกตัว"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white"
+                android:theme="@style/spinnerItemStyle">
+
+                <Spinner
+                    android:id="@+id/spinner_fnsafety12_Firepump_Motor5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="7dp"
+                    android:entries="@array/choice_Fn12"
+                    android:theme="@style/spinnerItemStyle" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:text="หมายเหตุ"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white">
+
+                <EditText
+                    android:id="@+id/notationfn12_2_9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:maxLines="2"
+                    android:paddingLeft="10dp"
+                    android:theme="@style/MyFont"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@color/colorBlack"
+                android:textAppearance="@style/MyFont" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="23dp"
+                android:text="น้ำ"
+                android:textColor="@color/colorBlack"
+                android:textSize="30dp"
+                android:theme="@style/MyFont" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="380dp"
+                android:background="@color/colorBlack"
+                android:textAppearance="@style/MyFont" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="23dp"
+                android:text="ระดับน้ำในถังเก็บ อยู่ในระดับเต็มถังเก็บ"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white"
+                android:theme="@style/spinnerItemStyle">
+
+                <Spinner
+                    android:id="@+id/spinner_fnsafety12_Firepump_Water1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="7dp"
+                    android:entries="@array/choice_Fn12"
+                    android:theme="@style/spinnerItemStyle" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:text="หมายเหตุ"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white">
+
+                <EditText
+                    android:id="@+id/notationfn12_2_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:paddingLeft="10dp"
+                    android:theme="@style/MyFont"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@color/colorBlack"
+                android:textAppearance="@style/MyFont" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="23dp"
+                android:text="ลูกลอยจ่ายน้ำ ทำงานจ่ายน้ำปกติ"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white"
+                android:theme="@style/spinnerItemStyle">
+
+                <Spinner
+                    android:id="@+id/spinner_fnsafety12_Firepump_Water2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="7dp"
+                    android:entries="@array/choice_Fn12"
+                    android:theme="@style/spinnerItemStyle" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:text="หมายเหตุ"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white">
+
+                <EditText
+                    android:id="@+id/notationfn12_2_11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:paddingLeft="10dp"
+                    android:theme="@style/MyFont"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@color/colorBlack"
+                android:textAppearance="@style/MyFont" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="23dp"
+                android:text="แรงดันน้ำในท่อส่งจ่าย แรงดันจะอยู่ที่
+                10-12 บาร์"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white"
+                android:theme="@style/spinnerItemStyle">
+
+                <Spinner
+                    android:id="@+id/spinner_fnsafety12_Firepump_Water3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="7dp"
+                    android:entries="@array/choice_Fn12"
+                    android:theme="@style/spinnerItemStyle" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:text="หมายเหตุ"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white">
+
+                <EditText
+                    android:id="@+id/notationfn12_2_12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:paddingLeft="10dp"
+                    android:theme="@style/MyFont"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@color/colorBlack"
+                android:textAppearance="@style/MyFont" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="23dp"
+                android:text="ตู้ควบคุมไฟฟ้า"
+                android:textColor="@color/colorBlack"
+                android:textSize="30dp"
+                android:theme="@style/MyFont" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="285dp"
+                android:background="@color/colorBlack"
+                android:textAppearance="@style/MyFont" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="23dp"
+                android:text="มีไฟฟ้าจ่ายเข้าระบบ
+                            หลอดไฟฟ้าติดมีไฟฟ้าเลี้ยงระบบ"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white"
+                android:theme="@style/spinnerItemStyle">
+
+                <Spinner
+                    android:id="@+id/spinner_fnsafety12_Firepump_Electronic_Control1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="7dp"
+                    android:entries="@array/choice_Fn12"
+                    android:theme="@style/spinnerItemStyle" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:text="หมายเหตุ"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white">
+
+                <EditText
+                    android:id="@+id/notationfn12_2_13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:paddingLeft="10dp"
+                    android:theme="@style/MyFont"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@color/colorBlack"
+                android:textAppearance="@style/MyFont" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="23dp"
+                android:text="ตำแหน่งสวิทซ์ควบคุม อยู่ในตำแหน่ง AUTO"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white"
+                android:theme="@style/spinnerItemStyle">
+
+                <Spinner
+                    android:id="@+id/spinner_fnsafety12_Firepump_Electronic_Control2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="7dp"
+                    android:entries="@array/choice_Fn12"
+                    android:theme="@style/spinnerItemStyle" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:text="หมายเหตุ"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white">
+
+                <EditText
+                    android:id="@+id/notationfn12_2_14"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:maxLines="2"
+                    android:paddingLeft="10dp"
+                    android:theme="@style/MyFont"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@color/colorBlack"
+                android:textAppearance="@style/MyFont" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="23dp"
+                android:text="การทดสอบการทำงาน"
+                android:textColor="@color/colorBlack"
+                android:textSize="30dp"
+                android:theme="@style/MyFont" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="221dp"
+                android:background="@color/colorBlack"
+                android:textAppearance="@style/MyFont" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="23dp"
+                android:text="กดปุ่ม TEST (ระบบอัตโนมัติ)
+                     sol ทำงานมีน้ำไหลลงถังเก็บน้ำ"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white"
+                android:theme="@style/spinnerItemStyle">
+
+                <Spinner
+                    android:id="@+id/spinner_fnsafety12_Firepump_ฺTestWork1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="7dp"
+                    android:entries="@array/choice_Fn12"
+                    android:theme="@style/spinnerItemStyle" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:text="หมายเหตุ"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white">
+
+                <EditText
+                    android:id="@+id/notationfn12_2_15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:paddingLeft="10dp"
+                    android:theme="@style/MyFont"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@color/colorBlack"
+                android:textAppearance="@style/MyFont" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="23dp"
+                android:text="แรงดันในท่อส่งจ่ายลดลงถึง 4 บาร์"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white"
+                android:theme="@style/spinnerItemStyle">
+
+                <Spinner
+                    android:id="@+id/spinner_fnsafety12_Firepump_TestWork2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginTop="7dp"
+                    android:entries="@array/choice_Fn12"
+                    android:theme="@style/spinnerItemStyle" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:text="หมายเหตุ"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white">
+
+                <EditText
+                    android:id="@+id/notationfn12_2_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:paddingLeft="10dp"
+                    android:theme="@style/MyFont"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@color/colorBlack"
+                android:textAppearance="@style/MyFont" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="23dp"
+                android:text="เครื่องยนต์ทำงานภายใน 20 วินาที"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white"
+                android:theme="@style/spinnerItemStyle">
+
+                <Spinner
+                    android:id="@+id/spinner_fnsafety12_Firepump_TestWork3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginTop="7dp"
+                    android:entries="@array/choice_Fn12"
+                    android:theme="@style/spinnerItemStyle" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:text="หมายเหตุ"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white">
+
+                <EditText
+                    android:id="@+id/notationfn12_2_17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:paddingLeft="10dp"
+                    android:theme="@style/MyFont"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@color/colorBlack"
+                android:textAppearance="@style/MyFont" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="23dp"
+                android:text="แรงดันในท่อระบบเพิ่มเป็น 12 บาร์"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white"
+                android:theme="@style/spinnerItemStyle">
+
+                <Spinner
+                    android:id="@+id/spinner_fnsafety12_Firepump_TestWork4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginTop="7dp"
+                    android:entries="@array/choice_Fn12"
+                    android:theme="@style/spinnerItemStyle" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:text="หมายเหตุ"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white">
+
+                <EditText
+                    android:id="@+id/notationfn12_2_18"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:maxLines="2"
+                    android:paddingLeft="10dp"
+                    android:theme="@style/MyFont"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@color/colorBlack"
+                android:textAppearance="@style/MyFont" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="23dp"
+                android:text="เสียงรบกวนและอาการสั่นของเครื่องยนต์ปกติ"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white"
+                android:theme="@style/spinnerItemStyle">
+
+                <Spinner
+                    android:id="@+id/spinner_fnsafety12_Firepump_TestWork5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginTop="7dp"
+                    android:entries="@array/choice_Fn12"
+                    android:theme="@style/spinnerItemStyle" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:text="หมายเหตุ"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white">
+
+                <EditText
+                    android:id="@+id/notationfn12_2_19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:paddingLeft="10dp"
+                    android:theme="@style/MyFont"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@color/colorBlack"
+                android:textAppearance="@style/MyFont" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="23dp"
+                android:text="หยุดการทำงาน  SW OFF "
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white"
+                android:theme="@style/spinnerItemStyle">
+
+                <Spinner
+                    android:id="@+id/spinner_fnsafety12_Firepump_TestWork6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginTop="7dp"
+                    android:entries="@array/choice_Fn12"
+                    android:theme="@style/spinnerItemStyle" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:text="หมายเหตุ"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white">
+
+                <EditText
+                    android:id="@+id/notationfn12_2_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:maxLines="2"
+                    android:paddingLeft="10dp"
+                    android:theme="@style/MyFont"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@color/colorBlack"
+                android:textAppearance="@style/MyFont" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="23dp"
+                android:text="ทดสอบระบบ  MANUAL
+                     เลื่อนตำแหน่งสวิทช์ไปที่  MANUAL"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white"
+                android:theme="@style/spinnerItemStyle">
+
+                <Spinner
+                    android:id="@+id/spinner_fnsafety12_Firepump_TestWork7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginTop="7dp"
+                    android:entries="@array/choice_Fn12"
+                    android:theme="@style/spinnerItemStyle" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:text="หมายเหตุ"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white">
+
+                <EditText
+                    android:id="@+id/notationfn12_2_21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:paddingLeft="10dp"
+                    android:theme="@style/MyFont"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@color/colorBlack"
+                android:textAppearance="@style/MyFont" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="23dp"
+                android:text="กดคันโยกสตาร์ทด้วยมือ"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white"
+                android:theme="@style/spinnerItemStyle">
+
+                <Spinner
+                    android:id="@+id/spinner_fnsafety12_Firepump_TestWork8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginTop="7dp"
+                    android:entries="@array/choice_Fn12"
+                    android:theme="@style/spinnerItemStyle" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:text="หมายเหตุ"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white">
+
+                <EditText
+                    android:id="@+id/notationfn12_2_22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:paddingLeft="10dp"
+                    android:theme="@style/MyFont"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@color/colorBlack"
+                android:textAppearance="@style/MyFont" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="23dp"
+                android:text="เครื่องยนต์ติดภายใน 10 วินาที"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white"
+                android:theme="@style/spinnerItemStyle">
+
+                <Spinner
+                    android:id="@+id/spinner_fnsafety12_Firepump_TestWork9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginTop="7dp"
+                    android:entries="@array/choice_Fn12"
+                    android:theme="@style/spinnerItemStyle" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:text="หมายเหตุ"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white">
+
+                <EditText
+                    android:id="@+id/notationfn12_2_23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:paddingLeft="10dp"
+                    android:theme="@style/MyFont"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@color/colorBlack"
+                android:textAppearance="@style/MyFont" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="23dp"
+                android:text="ระบบเครื่องยนต์ทำงานปกติ"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white"
+                android:theme="@style/spinnerItemStyle">
+
+                <Spinner
+                    android:id="@+id/spinner_fnsafety12_Firepump_TestWork10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="23dp"
+                    android:entries="@array/choice_Fn12"
+                    android:layout_marginTop="7dp"
+                    android:theme="@style/spinnerItemStyle" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:text="หมายเหตุ"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white">
+
+                <EditText
+                    android:id="@+id/notationfn12_2_24"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:maxLines="2"
+                    android:paddingLeft="10dp"
+                    android:theme="@style/MyFont"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@color/colorBlack"
+                android:textAppearance="@style/MyFont" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="23dp"
+                android:text="หยุดทำงานโดยเลื่อนสวิทช์ไปที่ตำแหน่ง Auto"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white"
+                android:theme="@style/spinnerItemStyle">
+
+                <Spinner
+                    android:id="@+id/spinner_fnsafety12_Firepump_TestWork11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginTop="7dp"
+                    android:entries="@array/choice_Fn12"
+                    android:theme="@style/spinnerItemStyle" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:text="หมายเหตุ"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white">
+
+                <EditText
+                    android:id="@+id/notationfn12_2_25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:paddingLeft="10dp"
+                    android:theme="@style/MyFont"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@color/colorBlack"
+                android:textAppearance="@style/MyFont" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="23dp"
+                android:text="Warm up ระบบด้วย TIMER (อัตโนมัติ)
+                    เครื่องยนต์ทำงานปกติตามเวลาที่ตั้ง"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white"
+                android:theme="@style/spinnerItemStyle">
+
+                <Spinner
+                    android:id="@+id/spinner_fnsafety12_Firepump_TestWork12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginTop="7dp"
+                    android:entries="@array/choice_Fn12"
+                    android:theme="@style/spinnerItemStyle" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:text="หมายเหตุ"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white">
+
+                <EditText
+                    android:id="@+id/notationfn12_2_26"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:maxLines="2"
+                    android:paddingLeft="10dp"
+                    android:theme="@style/MyFont"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@color/colorBlack"
+                android:textAppearance="@style/MyFont" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="23dp"
+                android:text="Set Time Stop 07.00 จันทร์, พุธ, ศุกร์
+                  เครื่องยนต์ทำงานปกติตามเวลาที่ตั้ง"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white"
+                android:theme="@style/spinnerItemStyle">
+
+                <Spinner
+                    android:id="@+id/spinner_fnsafety12_Firepump_TestWork13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginTop="7dp"
+                    android:entries="@array/choice_Fn12"
+                    android:theme="@style/spinnerItemStyle" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:text="หมายเหตุ"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white">
+
+                <EditText
+                    android:id="@+id/notationfn12_2_27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:paddingLeft="10dp"
+                    android:theme="@style/MyFont"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@color/colorBlack"
+                android:textAppearance="@style/MyFont" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="23dp"
+                android:text="Set Time Stop 07.10 จันทร์, พุธ, ศุกร์
+                    เครื่องยนต์ทำงานปกติตามเวลาที่ตั้ง"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white"
+                android:theme="@style/spinnerItemStyle">
+
+                <Spinner
+                    android:id="@+id/spinner_fnsafety12_Firepump_TestWork14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginTop="7dp"
+                    android:entries="@array/choice_Fn12"
+                    android:theme="@style/spinnerItemStyle" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:text="หมายเหตุ"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white">
+
+                <EditText
+                    android:id="@+id/notationfn12_2_28"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:paddingLeft="10dp"
+                    android:theme="@style/MyFont"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@color/colorBlack"
+                android:textAppearance="@style/MyFont" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="23dp"
+                android:text="ห้อง FIRE PUMP"
+                android:textColor="@color/colorBlack"
+                android:textSize="30dp"
+                android:theme="@style/MyFont" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="258dp"
+                android:background="@color/colorBlack"
+                android:textAppearance="@style/MyFont" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="23dp"
+                android:text="ความสะอาด รักษาความสะอาดและพื้นโดยรอบ"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white"
+                android:theme="@style/spinnerItemStyle">
+
+                <Spinner
+                    android:id="@+id/spinner_fnsafety12_Firepump_RoomFirePump1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="7dp"
+                    android:entries="@array/choice_Fn12"
+                    android:theme="@style/spinnerItemStyle" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:text="หมายเหตุ"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white">
+
+                <EditText
+                    android:id="@+id/notationfn12_2_29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:paddingLeft="10dp"
+                    android:theme="@style/MyFont"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@color/colorBlack"
+                android:textAppearance="@style/MyFont" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="23dp"
+                android:text="ความเป็นระเบียบเรียบร้อย
+                      ไม่มีสิ่งของวางเกะกะพื้นที่"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white"
+                android:theme="@style/spinnerItemStyle">
+
+                <Spinner
+                    android:id="@+id/spinner_fnsafety12_Firepump_RoomFirePump2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="7dp"
+                    android:entries="@array/choice_Fn12"
+                    android:theme="@style/spinnerItemStyle" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:text="หมายเหตุ"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white">
+
+                <EditText
+                    android:id="@+id/notationfn12_2_30"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:paddingLeft="10dp"
+                    android:theme="@style/MyFont"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@color/colorBlack"
+                android:textAppearance="@style/MyFont" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="23dp"
+                android:text="Emergency Light   กดปุ่มทดสอบ
+                    สถานะการทำงาน"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white"
+                android:theme="@style/spinnerItemStyle">
+
+                <Spinner
+                    android:id="@+id/spinner_fnsafety12_Firepump_RoomFirePump3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="7dp"
+                    android:entries="@array/choice_Fn12"
+                    android:theme="@style/spinnerItemStyle" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:text="หมายเหตุ"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white">
+
+                <EditText
+                    android:id="@+id/notationfn12_2_31"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:paddingLeft="10dp"
+                    android:theme="@style/MyFont"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@color/colorBlack"
+                android:textAppearance="@style/MyFont" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="23dp"
+                android:text="แสงสว่าง แสงสว่างในห้องทำงานปกติ"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white"
+                android:theme="@style/spinnerItemStyle">
+
+                <Spinner
+                    android:id="@+id/spinner_fnsafety12_Firepump_RoomFirePump4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="7dp"
+                    android:entries="@array/choice_Fn12"
+                    android:theme="@style/spinnerItemStyle" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:text="หมายเหตุ"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp"
+                android:theme="@style/MyFont" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_white">
+
+                <EditText
+                    android:id="@+id/notationfn12_2_32"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:paddingLeft="10dp"
+                    android:theme="@style/MyFont"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="30dp"-->
+<!--                android:layout_marginRight="30dp"-->
+<!--                android:layout_marginTop="12dp"-->
+<!--                android:text="ชื่ออุปกรณ์"-->
+<!--                android:textColor="@color/colorBlack"-->
+<!--                android:textSize="32dp"-->
+<!--                android:theme="@style/MyFont" />-->
+
+<!--            <RelativeLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="30dp"-->
+<!--                android:layout_marginRight="30dp"-->
+<!--                android:background="@drawable/frame_background_white">-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/nameDeviceFire"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="55dp"-->
+<!--                    android:maxLines="2"-->
+<!--                    android:paddingTop="13dp"-->
+<!--                    android:layout_marginLeft="20dp"-->
+<!--                    android:textColor="@color/colorBlack"-->
+<!--                    android:textSize="22dp"-->
+<!--                    android:theme="@style/MyFont" />-->
+<!--            </RelativeLayout>-->
+
+<!--            <TextView-->
+<!--                android:layout_marginTop="25dp"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="1dp"-->
+<!--                android:layout_marginLeft="25dp"-->
+<!--                android:layout_marginRight="25dp"-->
+<!--                android:background="@color/colorBlack"-->
+<!--                android:textAppearance="@style/MyFont" />-->
+
+<!--            <RelativeLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="30dp"-->
+<!--                android:layout_marginTop="40dp"-->
+<!--                android:layout_marginRight="240dp"-->
+<!--                android:background="@drawable/frame_background_white"-->
+<!--                android:theme="@style/spinnerItemStyle">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="15dp"-->
+<!--                    android:paddingLeft="12dp"-->
+<!--                    android:paddingTop="0dp"-->
+<!--                    android:text="ลงชื่อผู้ตรวจ"-->
+<!--                    android:textColor="@color/colorBlack"-->
+<!--                    android:textSize="25dp"-->
+<!--                    android:theme="@style/MyFont" />-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/Signaturefn12_2"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_marginLeft="120dp"-->
+<!--                    android:maxLines="1"-->
+<!--                    android:textColor="@color/colorBlack"-->
+<!--                    android:textSize="28dp"-->
+<!--                    android:theme="@style/MyFont" />-->
+<!--            </RelativeLayout>-->
+
+
+<!--            <RelativeLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="30dp"-->
+<!--                android:layout_marginTop="15dp"-->
+<!--                android:layout_marginRight="240dp"-->
+<!--                android:background="@drawable/frame_background_white">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="15dp"-->
+<!--                    android:paddingLeft="10dp"-->
+<!--                    android:paddingTop="0dp"-->
+<!--                    android:text="ลงชื่อผู้ตรวจสอบ"-->
+<!--                    android:textColor="@color/colorBlack"-->
+<!--                    android:textSize="25dp"-->
+<!--                    android:theme="@style/MyFont" />-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/ed_Signspectorfn12_2"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_marginLeft="156dp"-->
+<!--                    android:maxLines="1"-->
+<!--                    android:textColor="@color/colorBlack"-->
+<!--                    android:textSize="28dp"-->
+<!--                    android:theme="@style/MyFont" />-->
+<!--            </RelativeLayout>-->
+
+
+            <Button
+                android:id="@+id/btn_save_firepump"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginRight="80dp"
+                android:background="@drawable/frame_btnsave"
+                android:gravity="center"
+                android:text="บันทึก"
+                android:textColor="@color/colorWhite"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                android:theme="@style/MyFont" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/btn_3_Fn_12"
+                android:gravity="center">
+
+            </Button>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

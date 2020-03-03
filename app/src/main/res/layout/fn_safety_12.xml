@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_fnsafety12"
+    tools:context=".FnSafety_12">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/Toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary">
+
+            <ImageView
+                android:id="@+id/im_back_arrowfn12"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/back50" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" DAILY CHECK"
+                android:textColor="@color/colorBlack"
+                android:textSize="34dp"
+                android:theme="@style/MyFont" />
+        </androidx.appcompat.widget.Toolbar>
+
+        <LinearLayout
+            android:id="@+id/Fn_DAILY_CHECK_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/fram_btn_1_fn12">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:gravity="center"
+                android:text="DIESEL  FIRE  PUMP"
+                android:textColor="@color/colorBlack"
+                android:fontFamily="@font/thsarabunnewbold"
+                android:textSize="32dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Fn_DAILY_CHECK_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/fram_btn_2fn12">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:gravity="center"
+                android:text="PORTABLE  FIRE  PUMP"
+                android:textColor="@color/colorBlack"
+                android:textSize="32dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Fn_DAILY_CHECK_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/frame_btn_3_fn12">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:gravity="center"
+                android:text="FIRE  PUMP"
+                android:textColor="@color/colorBlack"
+                android:textSize="32dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Fn_DAILY_CHECK_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/frame_btn_4_fn_12">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:paddingLeft="14dp"
+                android:paddingRight="8dp"
+                android:gravity="center"
+                android:text="PORTABLE GENERATOR SAKARI GEN6 HVA"
+                android:textColor="@color/colorBlack"
+                android:textSize="32dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Fn_DAILY_CHECK_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/frame_btn_5_fn12">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:paddingLeft="14dp"
+                android:paddingRight="8dp"
+                android:gravity="center"
+                android:text="PORTABLE GENERATOR HONDA GX 120"
+                android:textColor="@color/colorBlack"
+                android:textSize="32dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

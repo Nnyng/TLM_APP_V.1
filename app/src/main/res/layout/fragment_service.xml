@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--ToolBar-->
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp">
+
+            <!--Back Icon-->
+            <ImageView
+                android:id="@+id/imvBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_back" />
+
+            <!--Title-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+
+                android:text="@string/title1"
+                android:textColor="@color/TextcolorPrimarytestdialog"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <!--Gender Icon-->
+            <ImageView
+                android:id="@+id/imvGender"
+                android:layout_width="wrap_content"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/boy" />
+
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <!--Content-->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--Row1-->
+        <LinearLayout
+            android:padding="@dimen/padding"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--First-->
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!--icon-->
+                <ImageView
+                    android:id="@+id/imvIcon1"
+                    android:src="@drawable/icon1"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="@dimen/icon"
+                    android:layout_height="@dimen/icon" />
+
+
+
+                <!--Label-->
+                <TextView
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h2"
+                    android:text="@string/label6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+
+            </LinearLayout>
+
+
+            <!--Second-->
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!--icon-->
+                <ImageView
+                    android:id="@+id/imvIcon2"
+                    android:src="@drawable/icon2"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="@dimen/icon"
+                    android:layout_height="@dimen/icon" />
+
+
+
+                <!--Label-->
+                <TextView
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h2"
+                    android:text="@string/label7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--Row2-->
+        <LinearLayout
+            android:padding="@dimen/padding"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--First-->
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!--icon-->
+                <ImageView
+                    android:id="@+id/imvIcon3"
+                    android:src="@drawable/icon3"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="@dimen/icon"
+                    android:layout_height="@dimen/icon" />
+
+
+
+                <!--Label-->
+                <TextView
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h2"
+                    android:text="@string/label8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+
+            </LinearLayout>
+
+
+            <!--Second-->
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!--icon-->
+                <ImageView
+                    android:id="@+id/imvIcon4"
+                    android:src="@drawable/icon4"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="@dimen/icon"
+                    android:layout_height="@dimen/icon" />
+
+
+
+                <!--Label-->
+                <TextView
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h2"
+                    android:text="@string/label9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--FoodBar-->
+
+</LinearLayout>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_fnsafety11"
+    tools:context=".Safety_11">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/Toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary">
+
+            <ImageView
+                android:id="@+id/im_back_arrowfn11"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/back50" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ตรวจเช็ค Fire Alarm"
+                android:textColor="@color/colorBlack"
+                android:textSize="34dp"
+                android:theme="@style/MyFont" />
+        </androidx.appcompat.widget.Toolbar>
+
+        <LinearLayout
+            android:id="@+id/Fn_FireAlarm1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/frame_btn_fnsafety11_3">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:gravity="center"
+                android:text="ระบบแจ้งเหตุ Manual (ตรวจทุกเดือน)"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Fn_FireAlarm2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/frame_btn_fnsafety11_3">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:paddingRight="8dp"
+                android:layout_marginTop="7dp"
+                android:gravity="center"
+                android:text="@string/fnFire_Alarm"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Fn_FireAlarm3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/frame_btn_fnsafety11_3">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="8dp"
+                android:gravity="center"
+                android:text="@string/fnFire_Alarm3"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Fn_FireAlarm4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/frame_btn_fnsafety11_3">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:gravity="center"
+                android:text="@string/fnFire_Alarm4"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Fn_FireAlarm5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/frame_btn_fnsafety11_3">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:gravity="center"
+                android:text="@string/fnFire_Alarm5"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background_fnsafety11"
+            android:gravity="center">
+        </Button>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
